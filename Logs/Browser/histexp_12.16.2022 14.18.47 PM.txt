@@ -1,0 +1,78 @@
+12/16/2022 16:56:29 PM	ConnectCarolina	https://connectcarolina.unc.edu/
+12/16/2022 16:56:35 PM	Scheduled Maintenance	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/h/?tab=NC_REDIRECT&TargetPage=PortalHome
+12/16/2022 16:56:41 PM	UNC-Chapel Hill Single Sign-On - Stale Request	https://sso.unc.edu/idp/profile/SAML2/POST/SSO
+12/16/2022 16:56:34 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/POST/SSO?execution=e1s1
+12/16/2022 16:56:35 PM	ConnectCarolina session expired	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/h/?tab=NC_REDIRECT&TargetPage=PortalHome&
+12/16/2022 16:56:35 PM		https://cs.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:36 PM	An error has occurred.	https://cs.cc.unc.edu/
+12/16/2022 16:56:36 PM		https://fs.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:37 PM		https://fs.cc.unc.edu/
+12/16/2022 16:56:37 PM	https://hc.cc.unc.edu/Shibboleth.sso/Login	https://hc.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:38 PM	An error has occurred.	https://hc.cc.unc.edu/
+12/16/2022 16:56:38 PM		https://csrpt.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:39 PM	500 Proxy Error	https://csrpt.cc.unc.edu/
+12/16/2022 16:56:39 PM		https://fsrpt.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:40 PM	Error 500--Internal Server Error	https://fsrpt.cc.unc.edu/
+12/16/2022 16:56:40 PM		https://hcrpt.cc.unc.edu/Shibboleth.sso/Login
+12/16/2022 16:56:41 PM	Student	https://hcrpt.cc.unc.edu/
+12/16/2022 16:56:43 PM	Student	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?InfoShibsession=true
+12/16/2022 16:56:50 PM	Student Center	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL
+12/16/2022 16:57:12 PM	Student TouchNet DUO	https://cs.cc.unc.edu/psc/campus_newwin/EMPLOYEE/SA/c/NC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL?Page=NC_TOUCHNET_DUO_FL&Action=U
+12/16/2022 16:57:33 PM	Student TouchNet DUO	https://cs.cc.unc.edu/psc/campus_8/EMPLOYEE/SA/c/NC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL?Page=NC_TOUCHNET_DUO_FL&Action=U&gscont=1
+12/16/2022 16:57:41 PM	ConnectCarolina Touchnet Access	https://cs.cc.unc.edu/psc/campus_8/EMPLOYEE/SA/s/WEBLIB_NC_EBILL.ISCRIPT2.FieldFormula.IScript_SF?
+12/16/2022 16:57:15 PM		https://cs.cc.unc.edu/psc/campus_newwin/EMPLOYEE/SA/s/WEBLIB_GS_DUO.ISCRIPT1.FieldFormula.IScript_MFA_Duo?Page=NC_TOUCHNET_DUO_FL&Action=U&oprid=wid&sessionIdentifier=K1wc8JU5-oYAEP-XGMwTKM_rMgrnNq_x!123402752!1671227807033&returnUrl=https%3A%2F%2Fcs.cc.unc.edu%2Fpsc%2Fcampus_8%2FEMPLOYEE%2FSA%2Fc%2FNC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL%3FPage%3DNC_TOUCHNET_DUO_FL%26Action%3DU%26gscont%3D1&signature=BeXSa28MUrt%2BiSVDHbq7eM7Jp2koFIWJJoSitES2Twg%3D
+12/17/2022 13:00:46 PM	ConnectCarolina	https://connectcarolina.unc.edu/
+12/17/2022 13:00:51 PM	Scheduled Maintenance	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/h/?tab=NC_REDIRECT&TargetPage=PortalHome
+12/17/2022 13:00:56 PM	UNC-Chapel Hill Single Sign-On - Stale Request	https://sso.unc.edu/idp/profile/SAML2/POST/SSO
+12/17/2022 13:00:51 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/POST/SSO?execution=e1s1
+12/17/2022 13:00:51 PM	ConnectCarolina session expired	https://pa.cc.unc.edu/psc/paprd/EMPLOYEE/EMPL/s/WEBLIB_PTBR.ISCRIPT1.FieldFormula.IScript_StartPage?URL=https%3A%2F%2Fpa.cc.unc.edu%2Fpsp%2Fpaprd%2FEMPLOYEE%2FEMPL%2Fh%2F%3Ftab%3DNC_REDIRECT%26TargetPage%3DPortalHome
+12/17/2022 13:00:51 PM		https://cs.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:52 PM	An error has occurred.	https://cs.cc.unc.edu/
+12/17/2022 13:00:52 PM		https://fs.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:53 PM		https://fs.cc.unc.edu/
+12/17/2022 13:00:53 PM	https://hc.cc.unc.edu/Shibboleth.sso/Login	https://hc.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:54 PM	An error has occurred.	https://hc.cc.unc.edu/
+12/17/2022 13:00:54 PM		https://csrpt.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:55 PM	500 Proxy Error	https://csrpt.cc.unc.edu/
+12/17/2022 13:00:55 PM		https://fsrpt.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:56 PM	Error 500--Internal Server Error	https://fsrpt.cc.unc.edu/
+12/17/2022 13:00:56 PM		https://hcrpt.cc.unc.edu/Shibboleth.sso/Login
+12/17/2022 13:00:58 PM	Student	https://hcrpt.cc.unc.edu/
+12/17/2022 13:01:00 PM	Student	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/EMPL/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?InfoShibsession=true
+12/17/2022 13:01:07 PM	Student Center	https://pa.cc.unc.edu/psp/paprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL
+12/17/2022 13:01:19 PM	Student TouchNet DUO	https://cs.cc.unc.edu/psc/campus_newwin/EMPLOYEE/SA/c/NC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL?Page=NC_TOUCHNET_DUO_FL&Action=U
+12/17/2022 13:01:36 PM	Student TouchNet DUO	https://cs.cc.unc.edu/psc/campus_8/EMPLOYEE/SA/c/NC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL?Page=NC_TOUCHNET_DUO_FL&Action=U&gscont=1
+12/17/2022 13:01:40 PM	ConnectCarolina Touchnet Access	https://cs.cc.unc.edu/psc/campus_8/EMPLOYEE/SA/s/WEBLIB_NC_EBILL.ISCRIPT2.FieldFormula.IScript_SF?
+12/17/2022 13:01:25 PM		https://cs.cc.unc.edu/psc/campus_newwin/EMPLOYEE/SA/s/WEBLIB_GS_DUO.ISCRIPT1.FieldFormula.IScript_MFA_Duo?Page=NC_TOUCHNET_DUO_FL&Action=U&oprid=wid&sessionIdentifier=ixUhPySPD0ejQ4RplDTi27x9bV_KnNXU!123402752!1671300064399&returnUrl=https%3A%2F%2Fcs.cc.unc.edu%2Fpsc%2Fcampus_8%2FEMPLOYEE%2FSA%2Fc%2FNC_CUSTOM_SS_FL.NC_TOUCHNET_DUO_FL.GBL%3FPage%3DNC_TOUCHNET_DUO_FL%26Action%3DU%26gscont%3D1&signature=rhrUZx6mgoqhBoW195lwBcknkJEzbkZuZEvfZJAu3lg%3D
+12/20/2022 16:51:36 PM	GitHub	https://github.com/
+12/20/2022 16:51:44 PM	WidAlsa0	https://github.com/WidAlsa0
+12/20/2022 16:51:45 PM	WidAlsa0/ProducersConsumers	https://github.com/WidAlsa0/ProducersConsumers
+12/20/2022 16:49:48 PM	Untitled document - Google Docs	https://docs.google.com/document/create?usp=drive_web&ouid=100407440431679426204&folder=1KF17aDrzo4_v-VAFVjL8WnVnddjFmNoj
+12/20/2022 16:52:17 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/20/2022 16:58:05 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/20/2022 16:59:38 PM	WidAlsa0	https://github.com/WidAlsa0
+12/20/2022 16:59:54 PM	WidAlsa0/a99-toliman	https://github.com/WidAlsa0/a99-toliman
+12/20/2022 17:00:06 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/20/2022 17:05:25 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 17:36:25 PM	WidAlsa0/a99-toliman	https://github.com/WidAlsa0/a99-toliman
+12/21/2022 17:38:22 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 17:36:24 PM	WidAlsa0/a99-toliman	https://www.google.com/url?q=https://github.com/WidAlsa0/a99-toliman&sa=D&source=docs&ust=1671665779255837&usg=AOvVaw3BTHQgJxxCJkBP-TaE4lI0
+12/21/2022 17:42:07 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 17:46:37 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 17:51:15 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 17:51:02 PM	what is scaling in software development - Google Search	https://www.google.com/search?q=what+is+scaling+in+software+development&sxsrf=ALiCzsYlBmqEIObIDiHjZYNexWx8mEWQaw%3A1671663052509&ei=zI2jY8jMHr-sqtsP0P-6mAk&oq=what+is+scaling+in+sof&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BAgAEEM6CAgAEBYQHhAPSgQIQRgASgQIRhgAUNoCWKMOYL4TaAFwAXgAgAFfiAGtB5IBAjExmAEAoAEByAEIwAEB&sclient=gws-wiz-serp
+12/21/2022 17:54:59 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:02:35 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:06:54 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:13:19 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:16:17 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:21:13 PM	Alsadoon_Wid.6.NYT.1 - Google Docs	https://docs.google.com/document/d/1hyxQDbx0pIbRbt-1Xf0TwH40PJORO1qBRBaNSphYceU/edit?usp=drive_web&ouid=100407440431679426204
+12/21/2022 18:21:17 PM	Alsadoon_Wid.6.NYT.1 - Google Docs	https://docs.google.com/document/d/1hyxQDbx0pIbRbt-1Xf0TwH40PJORO1qBRBaNSphYceU/edit
+12/21/2022 18:19:59 PM	NYT - Google Docs	https://docs.google.com/document/d/1qBTluCIG5s8SaeOpaFM37E4s2SHkd-DRHfgQRjQYE7E/edit
+12/21/2022 18:41:58 PM	Job Opportunities	https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/details/Staff-Software-Engineer--Care-Platforms_REQ-013728-1?jobFamilyGroup=554f88e889f701b4d6c36eee8bc91f1b
+12/21/2022 18:42:24 PM	Job Opportunities	https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/details/Software-Engineer---Data-Ad-Products_REQ-013804-1?jobFamilyGroup=554f88e889f701b4d6c36eee8bc91f1b
+12/21/2022 18:42:26 PM	Job Opportunities	https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/details/Senior-Software-Engineer--Identity_REQ-013396-1?jobFamilyGroup=554f88e889f701b4d6c36eee8bc91f1b
+12/21/2022 18:43:07 PM	Software Engineer, Identity : My Experience	https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York%2C-NY/Senior-Software-Engineer--Identity_REQ-013396-1/apply/useMyLastApplication?jobFamilyGroup=554f88e889f701b4d6c36eee8bc91f1b
+12/27/2022 19:12:13 PM	cross hatching tutorials - Google Search	https://www.google.com/search?q=cross+hatching+tutorials&oq=cross+hatching+tutorials&aqs=chrome..69i57j0i22i30j0i390l5.7931j0j7&sourceid=chrome&ie=UTF-8
+12/27/2022 19:12:42 PM	cross hatching course - Google Search	https://www.google.com/search?q=cross+hatching+course&sxsrf=ALiCzsZ1P8z6T9ZPqA-MmvE4EXVjVkttrA%3A1672186330659&ei=2omrY5PyJ_ijqtsPkaKJ-Ak&ved=0ahUKEwiTx_LBg5v8AhX4kWoFHRFRAp8Q4dUDCBA&uact=5&oq=cross+hatching+course&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgoIABBHENYEELADOgQIABBDOgUIABCRAjoICAAQFhAeEApKBAhBGABKBAhGGABQgQpYtTNg8jRoAnABeACAAWWIAfQEkgEDNi4xmAEAoAEByAEIwAEB&sclient=gws-wiz-serp
+12/27/2022 19:12:37 PM	How to Draw: Cross-Hatching - Pen and Ink Drawing Sketching | Udemy	https://www.udemy.com/course/how-to-draw-cross-hatching/

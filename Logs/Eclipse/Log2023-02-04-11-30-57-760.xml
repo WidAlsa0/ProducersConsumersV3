@@ -1,0 +1,132 @@
+<Events startTimestamp="1675528257760" logVersion="1.0.0.202111260825">
+  <Command __id="4" _type="ShellCommand" date="Sat Feb 04 11:36:53 EST 2023" starttimestamp="1675528257760" timestamp="355493" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="6" _type="PauseCommand" date="Sat Feb 04 11:37:09 EST 2023" range="10s-20s" starttimestamp="1675528257760" timestamp="371812">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[16318]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="8" _type="ProgramExecutionEvent" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 04 11:37:13 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1675528257760" timestamp="375806" type="Run" />
+  <Command __id="10" _type="RunCommand" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 04 11:37:13 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1675528257760" timestamp="375813" type="Run" />
+  <Command __id="12" _type="PauseCommand" date="Sat Feb 04 11:37:16 EST 2023" range="2s-5s" starttimestamp="1675528257760" timestamp="378572">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[2757]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="11" _type="ShellCommand" date="Sat Feb 04 11:37:16 EST 2023" starttimestamp="1675528257760" timestamp="378570" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="14" _type="PauseCommand" date="Sat Feb 04 11:37:20 EST 2023" range="2s-5s" starttimestamp="1675528257760" timestamp="382431">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3861]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="13" _type="ConsoleOutput" date="Sat Feb 04 11:37:20 EST 2023" overflow="false" starttimestamp="1675528257760" timestamp="382431" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Object:graphics.ABell@60a2630a displayed multiple times with following references:
+ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.last]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.ABell@60a2630a displayed multiple times with following references:
+ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.0, AProducerConsumerScene.queueBellList.last]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.APlate@180da663 displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.last, AProducerConsumerScene.otherPlateList.first]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.APlate@180da663 displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.0, AProducerConsumerScene.otherPlateList.last, AProducerConsumerScene.otherPlateList.first]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="16" _type="PauseCommand" date="Sat Feb 04 11:38:32 EST 2023" range="1m-2m" starttimestamp="1675528257760" timestamp="455046">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[72615]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Sat Feb 04 11:38:32 EST 2023" overflow="false" starttimestamp="1675528257760" timestamp="455046" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Object:graphics.APlate@7c2fb914 displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.1, AProducerConsumerScene.plateList.1]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"E*** Object:graphics.A"), Diff(DELETE,"Bell@60a2630a displayed multiple times with following references:¶ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.last]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶E*** Object:graphics.ABell@60a2630a displayed multiple times with following references:¶ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.0, AProducerConsumerScene.queueBellList.last]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶E*** Object:graphics.APlate@180da663"), Diff(INSERT,"Plate@7c2fb914"), Diff(EQUAL," displayed multiple times with following references:¶ [AProducerConsumerScene.otherPlateList."), Diff(DELETE,"last"), Diff(INSERT,"1"), Diff(EQUAL,", AProducerConsumerScene."), Diff(DELETE,"otherP"), Diff(INSERT,"p"), Diff(EQUAL,"lateList."), Diff(DELETE,"first]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶E*** Object:graphics.APlate@180da663 displayed multiple times with following references:¶ [AProducerConsumerScene.otherPlateList.0, AProducerConsumerScene.otherPlateList.last, AProducerConsumerScene.otherPlateList.first"), Diff(INSERT,"1"), Diff(EQUAL,"]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶")]]]></diff>
+  </Command>
+  <Command __id="18" _type="PauseCommand" date="Sat Feb 04 11:38:39 EST 2023" range="5s-10s" starttimestamp="1675528257760" timestamp="461679">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[6631]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="17" _type="ConsoleOutput" date="Sat Feb 04 11:38:39 EST 2023" overflow="false" starttimestamp="1675528257760" timestamp="461677" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Object:graphics.APlate@6f6beb89 displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.2, AProducerConsumerScene.plateList.2]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"E*** Object:graphics.APlate@"), Diff(DELETE,"7c2fb914"), Diff(INSERT,"6f6beb89"), Diff(EQUAL," displayed multiple times with following references:¶ [AProducerConsumerScene.otherPlateList."), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,", AProducerConsumerScene.plateList."), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,"]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶")]]]></diff>
+  </Command>
+  <Command __id="20" _type="PauseCommand" date="Sat Feb 04 11:39:42 EST 2023" range="1m-2m" starttimestamp="1675528257760" timestamp="524664">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[62986]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="19" _type="ConsoleOutput" date="Sat Feb 04 11:39:42 EST 2023" overflow="false" starttimestamp="1675528257760" timestamp="524663" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Object:graphics.APlate@3e1f0e9b displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.1, AProducerConsumerScene.plateList.3]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"E*** Object:graphics.APlate@"), Diff(DELETE,"6f6beb89"), Diff(INSERT,"3e1f0e9b"), Diff(EQUAL," displayed multiple times with following references:¶ [AProducerConsumerScene.otherPlateList."), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,", AProducerConsumerScene.plateList."), Diff(DELETE,"2"), Diff(INSERT,"3"), Diff(EQUAL,"]¶ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.¶If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.¶")]]]></diff>
+  </Command>
+  <Command __id="22" _type="PauseCommand" date="Sat Feb 04 11:48:45 EST 2023" range="5m-10m" starttimestamp="1675528257760" timestamp="1067589">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[542925]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="23" _type="ProgramExecutionEvent" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 04 11:48:46 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1675528257760" timestamp="1069216" type="Run" />
+  <Command __id="25" _type="ProgramExecutionEvent" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 04 11:48:46 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1675528257760" timestamp="1069219" type="Run" />
+  <Command __id="26" _type="ShellCommand" date="Sat Feb 04 11:48:47 EST 2023" starttimestamp="1675528257760" timestamp="1069889" type="ECLIPSE_MINIMIZED" />
+  <Command __id="27" _type="ShellCommand" date="Sat Feb 04 11:48:47 EST 2023" starttimestamp="1675528257760" timestamp="1069909" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="29" _type="PauseCommand" date="Sun Feb 05 20:29:43 EST 2023" range=">1h" starttimestamp="1675528257760" timestamp="118725265">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[117655354]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[BalloonCommand]]></next>
+  </Command>
+  <Command __id="28" _type="BalloonCommand" date="Sun Feb 05 20:29:43 EST 2023" message="*******************************************
+Worked 6 minutes(fixed)/2 minutes(context based) from
+Sat Feb 04 11:30:58 EST 2023 to Sat Feb 04 11:48:47 EST 2023
+Edited 0 Projects: 
+Edited 0 Files: 
+Number of insert: 0
+Number of delete: 0
+" starttimestamp="1675528257760" timestamp="118725263">
+    <fineGrainedWorkTime><![CDATA[2]]></fineGrainedWorkTime>
+    <insert><![CDATA[0]]></insert>
+    <startTime><![CDATA[1675528258116]]></startTime>
+    <endTime><![CDATA[1675529327669]]></endTime>
+    <workTime><![CDATA[6]]></workTime>
+    <delete><![CDATA[0]]></delete>
+  </Command>
+  <Command __id="31" _type="PauseCommand" date="Mon Feb 06 13:13:34 EST 2023" range=">1h" starttimestamp="1675528257760" timestamp="178957033">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[BalloonCommand]]></prev>
+    <pause><![CDATA[60231768]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

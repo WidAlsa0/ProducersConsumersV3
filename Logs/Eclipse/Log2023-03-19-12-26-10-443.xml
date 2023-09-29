@@ -1,0 +1,1390 @@
+<Events startTimestamp="1679243170443" logVersion="1.0.0.202111260825">
+  <Command __id="3" _type="PauseCommand" date="Sun Mar 19 12:26:18 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="7621">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6921]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="2" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:26:18 EDT 2023" projectName="null" starttimestamp="1679243170443" timestamp="7610">
+    <filePath><![CDATA[null]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="5" _type="PauseCommand" date="Sun Mar 19 12:26:21 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="10977">
+    <prevType><![CDATA[Open File]]></prevType>
+    <prev><![CDATA[DiffBasedFileOpenCommand]]></prev>
+    <pause><![CDATA[3367]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="6" _type="MoveCaretCommand" caretOffset="5816" date="Sun Mar 19 12:26:21 EDT 2023" docOffset="6696" starttimestamp="1679243170443" timestamp="11175" />
+  <Command __id="8" _type="PauseCommand" date="Sun Mar 19 12:26:26 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="16547">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5372]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="7" _type="ShellCommand" date="Sun Mar 19 12:26:26 EDT 2023" starttimestamp="1679243170443" timestamp="16547" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="10" _type="PauseCommand" date="Sun Mar 19 12:26:32 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="22007">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5459]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="9" _type="ShellCommand" date="Sun Mar 19 12:26:32 EDT 2023" starttimestamp="1679243170443" timestamp="22006" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="12" _type="MoveCaretCommand" caretOffset="0" date="Sun Mar 19 12:26:32 EDT 2023" docOffset="0" starttimestamp="1679243170443" timestamp="22361" />
+  <Command __id="14" _type="PauseCommand" date="Sun Mar 19 12:26:35 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="25320">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2959]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="13" _type="ShellCommand" date="Sun Mar 19 12:26:35 EDT 2023" starttimestamp="1679243170443" timestamp="25320" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="16" _type="PauseCommand" date="Sun Mar 19 12:26:37 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="26980">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1660]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="15" _type="ShellCommand" date="Sun Mar 19 12:26:37 EDT 2023" starttimestamp="1679243170443" timestamp="26980" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="18" _type="MoveCaretCommand" caretOffset="1877" date="Sun Mar 19 12:26:37 EDT 2023" docOffset="1944" starttimestamp="1679243170443" timestamp="27396" />
+  <Command __id="4" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:26:21 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9773" docExpressionCount="1160" docLength="10344" projectName="ProducersConsumersV3" starttimestamp="1679243170443" timestamp="10977">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumersV3\src\graphics\AProducerConsumerScene.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package graphics;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+import animations.ACookingPlateAnimator;
+import animations.ACookingPlateCommand;
+import animations.AServingPlateAnimator;
+import animations.AServingPlateCommand;
+import animations.CookingPlateAnimator;
+import animations.ServingPlateAnimator;
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import bus.uigen.shapes.ALineModel;
+import bus.uigen.shapes.AStringModel;
+import bus.uigen.shapes.AnImageModel;
+import bus.uigen.shapes.OEShapeModel;
+import shapes.FlexibleTextShape;
+import util.annotations.EditablePropertyNames;
+import util.annotations.Label;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Visible;
+import util.misc.ThreadSupport;
+
+import java.awt.Color;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({
+	"patronList",
+	"chefList",
+	"buffer",
+	"plateList",
+	"otherPlateList",
+	"bellsList",
+	"queueBellList"
+})
+@EditablePropertyNames({
+})
+public class AProducerConsumerScene implements ProducerConsumerScene {
+	
+	//Avatar offsets inside scene
+	int[] chefXValues = {120,-50,-50,120};
+	int[] chefYValues = {-50,35,210,320};
+	int[] patronXValues = {650,850,850,650};
+	int[] patronYValues = {-50,35,220,320};
+	int[] bellXValues = {680,880,880,680};
+	int[] bellYValues = {75,160,345,445};
+	int INIT_HEAD_Y = 60;
+	int INIT_HEAD_X = 163;
+	int INIT_HEAD_HEIGHT = 90;
+	int INIT_HEAD_WIDTH = 80;
+	int PLATE_OFFSET_X = 30;
+	int PLATE_OFFSET_Y = 10;
+	int PAUSE = 5;
+	
+	//Booleans that help with the functionality of the below methods
+	boolean INIT_COOK = true;
+	boolean full = false;
+	int fullPlateOffset = -5;
+	
+	//Defining the chef and patron images
+	String[] chefImages = {"images/0.png","images/1.png","images/2.png","images/3.png"};
+	String[] patronImages = {"images/4.png", "images/5.png", "images/6.png", "images/7.png"};
+	
+	//Buffer arrays
+	int[] bufferXValues = {625, 680, 680, 620, 535, 460, 460, 535};
+	int[] bufferYValues = {200, 275, 365, 425, 425, 365, 275, 200};
+	boolean[] isFull = {false, false, false, false, false, false, false, false};
+	
+	//The properties of our class
+	List<APatron> patronList;
+	List<AChef> chefList;
+	BoundedBuffer buffer = new ABoundedBuffer();
+	List<APlate> plateList;
+	Queue<APlate> otherPlateList;
+	
+	OEShapeModel[] lineArray = {buffer.getLineTwo(), buffer.getLineThree(), buffer.getLineFour(), 
+								buffer.getLineFive(), buffer.getLineSix(), buffer.getLineSeven(), 
+								buffer.getLineEight(), buffer.getLineOne()};
+	
+	List<ABell> bellsList;
+	Queue<ABell> queueBellList;
+	int[] bellValues = {127, 212, 397, 497};
+	Queue<Integer> bellIntegerList;
+	
+	ACookingPlateCommand cookingCommand;
+	CookingPlateAnimator cookingAnimator;
+	
+	AServingPlateCommand servingCommand;
+	ServingPlateAnimator servingAnimator;
+	
+	//The constructor sets the scene with one chef, patron, a buffer, and a plate (not visible)
+	public AProducerConsumerScene() {
+		patronList = new ArrayList<APatron>();
+		chefList = new ArrayList<AChef>();
+		//buffer = new ABoundedBuffer();
+		plateList = new ArrayList<APlate>();
+		otherPlateList = new LinkedList<APlate>();
+		bellsList = new ArrayList<ABell>();
+		queueBellList = new LinkedList<ABell>();
+		bellIntegerList = new LinkedList<Integer>();
+		
+		patronList.add(0, new APatron());
+		OEShapeModel initPatronHead = new AnImageModel(patronImages[0]);
+		initPatronHead.setX(INIT_HEAD_X);
+		initPatronHead.setY(INIT_HEAD_Y);
+		initPatronHead.setHeight(INIT_HEAD_HEIGHT);
+		initPatronHead.setWidth(INIT_HEAD_WIDTH);
+		patronList.get(0).patron.setHead(initPatronHead);
+		patronList.get(0).move(patronXValues[0], patronYValues[0]);
+		
+		chefList.add(0, new AChef());
+		OEShapeModel initChefHead = new AnImageModel(chefImages[0]);
+		initChefHead.setX(INIT_HEAD_X);
+		initChefHead.setY(INIT_HEAD_Y);
+		initChefHead.setHeight(INIT_HEAD_HEIGHT);
+		initChefHead.setWidth(INIT_HEAD_WIDTH);
+		chefList.get(0).chef.setHead(initChefHead);
+		chefList.get(0).move(chefXValues[0], chefYValues[0]);
+		
+		plateList.add(new APlate());
+		plateList.get(0).getPlate().setHeight(0);
+		plateList.get(0).getPlate().setWidth(0);
+		
+		otherPlateList.add(new APlate());
+		otherPlateList.peek().getPlate().setHeight(0);
+		otherPlateList.peek().getPlate().setWidth(0);
+		
+		cookingAnimator = new ACookingPlateAnimator();
+		servingAnimator = new AServingPlateAnimator();
+		
+		bellsList.add(new ABell());
+		bellsList.get(0).getBell().setHeight(0);
+		bellsList.get(0).getBell().setWidth(0);
+		
+		queueBellList.add(new ABell());
+		queueBellList.peek().getBell().setHeight(0);
+		queueBellList.peek().getBell().setWidth(0);
+		
+		bellIntegerList.add(0);
+	}
+	
+	//Producer consumer methods
+	
+	//Init Scene sets the number of patrons and chefs in the scene
+	@Label("Init Scene")
+	public void initScene(int patronAmount, int chefAmount) {
+		bellsList.clear();
+		for (int i=0; i<patronAmount; i++) { 
+			APatron patron = new APatron();
+			patronList.add(i, patron);
+			OEShapeModel newHead = new AnImageModel(patronImages[i]);
+			patron.patron.setHead(newHead); 
+			newHead.setX(INIT_HEAD_X); 
+			newHead.setY(INIT_HEAD_Y);
+			newHead.setHeight(INIT_HEAD_HEIGHT);
+			newHead.setWidth(INIT_HEAD_WIDTH);
+			patron.move(patronXValues[i], patronYValues[i]);
+			
+			bellsList.add(new ABell());
+			bellsList.get(i).move(bellXValues[i], bellYValues[i]);
+		}
+		for (int i=0; i<chefAmount; i++) {
+			AChef chef = new AChef();
+			chefList.add(i, chef);
+			OEShapeModel newHead = new AnImageModel(chefImages[i]);
+			chef.chef.setHead(newHead);
+			newHead.setX(INIT_HEAD_X); 
+			newHead.setY(INIT_HEAD_Y);
+			newHead.setHeight(INIT_HEAD_HEIGHT);
+			newHead.setWidth(INIT_HEAD_WIDTH);
+			chef.move(chefXValues[i], chefYValues[i]);
+		}
+	}
+	
+	//Once the head of an avatar is chosen, it makes the plate that they "cook" appear
+	public void cook(OEShapeModel head) {
+		if (INIT_COOK) {
+			INIT_COOK=!INIT_COOK;
+			plateList.remove(0);
+			otherPlateList.remove();
+		}
+		
+		int headX = head.getCenterX();
+		int headY = head.getCenterY();
+		APlate newPlate = new APlate(plateList.size()+1);
+		newPlate.getPlate().setHeight(0);
+		newPlate.getPlate().setWidth(0);
+		plateList.add(newPlate);
+		otherPlateList.add(newPlate);
+		
+		if (full) {
+			newPlate.move(headX+PLATE_OFFSET_X, headY+PLATE_OFFSET_Y+fullPlateOffset);
+			fullPlateOffset = fullPlateOffset - 5;
+		} else {
+			newPlate.move(headX+PLATE_OFFSET_X, headY+PLATE_OFFSET_Y);
+		}
+		
+		cookingCommand = new ACookingPlateCommand(cookingAnimator, newPlate, 40, 15);
+		Thread thread = new Thread (cookingCommand);
+		thread.start();
+	}
+	
+	public void serve() {
+		//Checks to see if the buffer is full. If it is, then can't serve.
+		resetLineColors();
+		if(checkIfFull()) {
+			resetLineColors();
+			return;
+		}
+		
+		Plate workingPlate = otherPlateList.peek();
+		int workingPlatePlace = Integer.valueOf(workingPlate.getText().getText())-1;
+		changeLineColors(workingPlatePlace);
+		servingCommand = new AServingPlateCommand(servingAnimator,workingPlate,PAUSE, bufferXValues[workingPlatePlace], bufferYValues[workingPlatePlace]);
+		Thread thread = new Thread(servingCommand);
+		thread.start();
+		isFull[workingPlatePlace] = true;
+		otherPlateList.remove();
+	}
+	
+	public void order(OEShapeModel bell) {
+		if(checkIfFull()) {
+			resetLineColors();
+			resetBuffer();
+		}
+		bellIntegerList.add(0);
+		int bellPlace = findBell(bell.getCenterY());
+		bellsList.get(bellPlace).getText().setText(String.valueOf(bellIntegerList.size()-1));
+		
+		int platePlace = findFirstAvailablePlate();
+		servingCommand = new AServingPlateCommand(servingAnimator,plateList.get(platePlace),PAUSE, bell.getCenterX() , bell.getCenterY());
+		Thread thread = new Thread(servingCommand);
+		thread.start();
+		
+		cookingCommand = new ACookingPlateCommand(cookingAnimator, plateList.get(0), 0, 15);
+		Thread eatingThread = new Thread (cookingCommand);
+		eatingThread.start();
+		plateList.get(0).getText().setText("");
+	}
+	
+	public void eat() {
+		plateList.remove(0);
+	}
+	
+	@Override
+	@Visible(false)
+	public int findBell(int centerY) {
+		for(int i=0; i<bellsList.size();i++) {
+			if(bellsList.get(i).getBell().getCenterY() == centerY) {
+				return i;
+			}
+		}
+		return 0;
+	}
+	
+	@Override
+	@Visible(false)
+	public int findFirstAvailablePlate() {
+		for (int i=0; i<isFull.length;i++) {
+			if(isFull[i] == true) {
+				return i;
+			}
+		}
+		return 0;
+	}
+	
+	@Override
+	@Visible(false)
+	public void resetBuffer() {
+		
+		for (int i=0; i<isFull.length;i++) {
+			isFull[i] = false;
+		}
+	}
+	
+	@Override
+	@Visible(false)
+	public int findPatron(OEShapeModel patronHead) {
+		return 0;
+	}
+	
+	@Override
+	@Visible(false)
+	public boolean checkIfFull() {
+		for (int i=0; i<isFull.length;i++) {
+			if (isFull[i] == false) {
+				full = false;
+				return full;
+			}
+		}
+		full = true;
+		return full;
+	}
+	
+	@Override
+	@Visible(false)
+	public void changeLineColors(int workingPlatePlace) {
+		if(workingPlatePlace == lineArray.length-1) {
+			lineArray[workingPlatePlace].setColor(Color.GREEN);
+			lineArray[0].setColor(Color.GREEN);
+		} else {
+			lineArray[workingPlatePlace].setColor(Color.GREEN);
+			lineArray[workingPlatePlace+1].setColor(Color.GREEN);
+		}
+	}
+	
+	
+	@Override
+	@Visible(false)
+	public void resetLineColors() {
+		for (int i=0; i<lineArray.length; i++) {
+			lineArray[i].setColor(Color.WHITE);
+		}
+	}
+	
+	//Getters for properties of the scene
+	@Override
+	public List<AChef> getChefList() {
+		return chefList;
+	}
+	
+	@Override
+	public List<APatron> getPatronList() {
+		return patronList;
+	}
+	
+	@Override
+	public BoundedBuffer getBuffer() {
+		return buffer;
+	}
+	
+	@Override
+	public List<APlate> getPlateList() {
+		return plateList;
+	}	
+	
+	@Override
+	@util.annotations.Visible(false)
+	public Queue<APlate> getOtherPlateList() {
+		return otherPlateList;
+	}
+	
+	@Override
+	public List<ABell> getBellsList() {
+		return bellsList;
+	}
+	
+	@Override
+	@Visible(false)
+	public Queue<ABell> getQueueBellList() {
+		return queueBellList;
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="11" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:26:32 EDT 2023" docASTNodeCount="917" docActiveCodeLength="5404" docExpressionCount="657" docLength="6091" projectName="ProducersConsumersV3" starttimestamp="1679243170443" timestamp="22231">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumersV3\src\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package graphics;
+
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import bus.uigen.shapes.ALineModel;
+import bus.uigen.shapes.AnOvalModel;
+import bus.uigen.shapes.OEShapeModel;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+
+import java.awt.BasicStroke;
+import java.awt.Color;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({
+	"circle",
+	"lineOne",
+	"lineTwo",
+	"lineThree",
+	"lineFour",
+	"lineFive",
+	"lineSix",
+	"lineSeven",
+	"lineEight"
+})
+@EditablePropertyNames({
+})
+public class ABoundedBuffer implements BoundedBuffer {
+	//Units for centering the circle
+	int INIT_X = 420;
+	int INIT_Y = 175;
+	int INIT_CIRCLE_HEIGHT = 350;
+	int INIT_CIRCLE_WIDTH = 350;
+	
+	//Line one is the left side of the first buffer & right side of the last buffer
+	double LINE_ONE_ANGLE = (5*Math.PI)/4;
+	int LINE_ONE_X = INIT_X + (INIT_CIRCLE_WIDTH/2);
+	int LINE_ONE_Y = 350;
+	int LINE_ONE_RADIUS = 176;
+	
+	//Line two is the right side of the first buffer & left side of the second buffer
+	double LINE_TWO_ANGLE = (3*Math.PI)/2;
+	
+	//Line three is the right side of the second buffer & left side of the third buffer
+	double LINE_THREE_ANGLE = (7*Math.PI)/4;
+	
+	//Line four is the right side of the third buffer & left side of the fourth buffer
+	double LINE_FOUR_ANGLE = 0;
+	
+	//Line five is the right side of the fourth buffer & left side of the fifth buffer
+	double LINE_FIVE_ANGLE = (Math.PI/4);
+	
+	//Line six is the right side of the fifth buffer & left side of the sixth buffer
+	double LINE_SIX_ANGLE = (Math.PI/2);
+	
+	//Line seven is the right side of the sixth buffer & left side of the seventh buffer
+	double LINE_SEVEN_ANGLE = (3*Math.PI/4);
+	
+	//Line eight is the right side of the seventh buffer & left side of the eight buffer
+	double LINE_EIGHT_ANGLE = (Math.PI);
+	
+	OEShapeModel circle;
+	OEShapeModel lineOne;
+	OEShapeModel lineTwo;
+	OEShapeModel lineThree;
+	OEShapeModel lineFour;
+	OEShapeModel lineFive;
+	OEShapeModel lineSix;
+	OEShapeModel lineSeven;
+	OEShapeModel lineEight;
+	
+	public ABoundedBuffer() {
+		circle = new AnOvalModel();
+		circle.setHeight(INIT_CIRCLE_HEIGHT);
+		circle.setWidth(INIT_CIRCLE_WIDTH);
+		circle.setX(INIT_X);
+		circle.setY(INIT_Y);
+		circle.setColor(Color.WHITE);
+		circle.setStroke(new BasicStroke(2.0F));
+		
+		lineOne = new ALineModel();
+		lineOne.setX(LINE_ONE_X);
+		lineOne.setY(LINE_ONE_Y);
+		lineOne.setRadius(LINE_ONE_RADIUS);
+		lineOne.setAngle(LINE_ONE_ANGLE);
+		lineOne.setColor(Color.WHITE);
+		lineOne.setStroke(new BasicStroke(2.0F));
+		
+		lineTwo = new ALineModel();
+		lineTwo.setX(LINE_ONE_X);
+		lineTwo.setY(LINE_ONE_Y);
+		lineTwo.setRadius(LINE_ONE_RADIUS);
+		lineTwo.setAngle(LINE_TWO_ANGLE);
+		lineTwo.setColor(Color.WHITE);
+		lineTwo.setStroke(new BasicStroke(2.0F));
+		
+		lineThree = new ALineModel();
+		lineThree.setX(LINE_ONE_X);
+		lineThree.setY(LINE_ONE_Y);
+		lineThree.setRadius(LINE_ONE_RADIUS);
+		lineThree.setAngle(LINE_THREE_ANGLE);
+		lineThree.setColor(Color.WHITE);
+		lineThree.setStroke(new BasicStroke(2.0F));
+		
+		lineFour = new ALineModel();
+		lineFour.setX(LINE_ONE_X);
+		lineFour.setY(LINE_ONE_Y);
+		lineFour.setRadius(LINE_ONE_RADIUS);
+		lineFour.setAngle(LINE_FOUR_ANGLE);
+		lineFour.setColor(Color.WHITE);
+		lineFour.setStroke(new BasicStroke(2.0F));
+		
+		lineFive = new ALineModel();
+		lineFive.setX(LINE_ONE_X);
+		lineFive.setY(LINE_ONE_Y);
+		lineFive.setRadius(LINE_ONE_RADIUS);
+		lineFive.setAngle(LINE_FIVE_ANGLE);
+		lineFive.setColor(Color.WHITE);
+		lineFive.setStroke(new BasicStroke(2.0F));
+		
+		lineSix = new ALineModel();
+		lineSix.setX(LINE_ONE_X);
+		lineSix.setY(LINE_ONE_Y);
+		lineSix.setRadius(LINE_ONE_RADIUS);
+		lineSix.setAngle(LINE_SIX_ANGLE);
+		lineSix.setColor(Color.WHITE);
+		lineSix.setStroke(new BasicStroke(2.0F));
+		
+		lineSeven = new ALineModel();
+		lineSeven.setX(LINE_ONE_X);
+		lineSeven.setY(LINE_ONE_Y);
+		lineSeven.setRadius(LINE_ONE_RADIUS);
+		lineSeven.setAngle(LINE_SEVEN_ANGLE);
+		lineSeven.setColor(Color.WHITE);
+		lineSeven.setStroke(new BasicStroke(2.0F));
+		
+		lineEight = new ALineModel();
+		lineEight.setX(LINE_ONE_X);
+		lineEight.setY(LINE_ONE_Y);
+		lineEight.setRadius(LINE_ONE_RADIUS);
+		lineEight.setAngle(LINE_EIGHT_ANGLE);
+		lineEight.setColor(Color.WHITE);
+		lineEight.setStroke(new BasicStroke(2.0F));
+		
+	}
+	
+	public OEShapeModel getCircle() {
+		return circle;
+	}
+	
+	public OEShapeModel getLineOne() {
+		return lineOne;
+	}
+	
+	public OEShapeModel getLineTwo() {
+		return lineTwo;
+	}
+	
+	public OEShapeModel getLineThree() {
+		return lineThree;
+	}
+	
+	public OEShapeModel getLineFour() {
+		return lineFour;
+	}
+	
+	public OEShapeModel getLineFive() {
+		return lineFive;
+	}
+	
+	public OEShapeModel getLineSix() {
+		return lineSix;
+	}
+	
+	public OEShapeModel getLineSeven() {
+		return lineSeven;
+	}
+	
+	public OEShapeModel getLineEight() {
+		return lineEight;
+	}
+	
+	public void move(int newX, int newY) {
+		circle.setX(circle.getX()+newX);
+		circle.setY(circle.getY()+newY);
+		
+		lineOne.setX(lineOne.getX()+newX);
+		lineOne.setY(lineOne.getY()+newY);
+		
+		lineTwo.setX(lineTwo.getX()+newX);
+		lineTwo.setY(lineTwo.getY()+newY);
+		
+		lineThree.setX(lineThree.getX()+newX);
+		lineThree.setY(lineThree.getY()+newY);
+		
+		lineFour.setX(lineFour.getX()+newX);
+		lineFour.setY(lineFour.getY()+newY);
+		
+		lineFive.setX(lineFive.getX()+newX);
+		lineFive.setY(lineFive.getY()+newY);
+		
+		lineSix.setX(lineSix.getX()+newX);
+		lineSix.setY(lineSix.getY()+newY);
+		
+		lineSeven.setX(lineSeven.getX()+newX);
+		lineSeven.setY(lineSeven.getY()+newY);
+		
+		lineEight.setX(lineEight.getX()+newX);
+		lineEight.setY(lineEight.getY()+newY);
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		final BoundedBuffer buffer = new ABoundedBuffer();
+		OEFrame editor = ObjectEditor.edit(buffer);
+		editor.showDrawPanel();
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="17" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:26:37 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="27229">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package pc.graphics;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.List;
+
+public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{
+	public static final int  MAX_SIZE = 8;
+	Object[] buffer = new Object[MAX_SIZE];
+	int size = 0;
+	int nextIn = 0;
+	int nextOut = 0;
+	
+	PropertyListenerSupport propertySupport = new APropertyListenerSupport();
+//	public synchronized void put(ElementType element) {
+
+	public void put(ElementType element) {
+//		if (size >= MAX_SIZE)
+//			return;
+		while (size >= MAX_SIZE) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		buffer[nextIn] = element;
+		int oldNextIn = nextIn;
+		nextIn = (nextIn + 1) % MAX_SIZE;
+		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));
+		size++;
+		//notify();
+	}	
+	
+//	public synchronized ElementType get() {
+	public  ElementType get() {
+//		if (size == 0) {
+//			return null;
+//		}
+		while (size == 0) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		ElementType retVal = (ElementType) buffer[nextOut];
+		int oldNextOut = nextOut;
+		nextOut = (nextOut + 1) % MAX_SIZE;
+		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));
+		size--;
+		//notify();
+		return retVal;		
+	}
+//	public static void main(String[] args) {
+//		BoundedBuffer<String> greetings = new ABoundedBuffer();
+//		Runnable producer1 = new AProducer<String>(greetings, "Hello");
+//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");
+//		(new Thread(producer1)).start();
+//		(new Thread(producer2)).start();
+//	}
+	
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		propertySupport.addPropertyChangeListener(arg0);
+		propertySupport.notifyAll();
+	}
+}]]></snapshot>
+  </Command>
+  <Command __id="20" _type="PauseCommand" date="Sun Mar 19 12:27:08 EDT 2023" range="30s-1m" starttimestamp="1679243170443" timestamp="58329">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[30933]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="21" _type="MoveCaretCommand" caretOffset="9200" date="Sun Mar 19 12:27:08 EDT 2023" docOffset="10080" starttimestamp="1679243170443" timestamp="58455" />
+  <Command __id="23" _type="PauseCommand" date="Sun Mar 19 12:27:49 EDT 2023" range="30s-1m" starttimestamp="1679243170443" timestamp="99487">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[41032]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="27" _type="MoveCaretCommand" caretOffset="244" date="Sun Mar 19 12:27:53 EDT 2023" docOffset="311" starttimestamp="1679243170443" timestamp="102604" />
+  <Command __id="25" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:27:52 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="102490">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package pc.graphics;¶¶import java.beans.PropertyChangeEvent;¶import java.beans.PropertyChangeListener;¶import java.util.List;¶¶public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{¶	public static final int  MAX_SIZE = 8;¶	Object[] buffer = new Object[MAX_SIZE];¶	int size = 0;¶	int nextIn = 0;¶	int nextOut = 0;¶	¶	PropertyListenerSupport propertySupport = new APropertyListenerSupport();¶//	public synchronized void put(ElementType element) {¶¶	public void put(ElementType element) {¶//		if (size >= MAX_SIZE)¶//			return;¶		while (size >= MAX_SIZE) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		buffer[nextIn] = element;¶		int oldNextIn = nextIn;¶		nextIn = (nextIn + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));¶		size++;¶		//notify();¶	}	¶	¶//	public synchronized ElementType get() {¶	public  ElementType get() {¶//		if (size == 0) {¶//			return null;¶//		}¶		while (size == 0) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		ElementType retVal = (ElementType) buffer[nextOut];¶		int oldNextOut = nextOut;¶		nextOut = (nextOut + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));¶		size--;¶		//notify();¶		return retVal;		¶	}¶//	public static void main(String[] args) {¶//		BoundedBuffer<String> greetings = new ABoundedBuffer();¶//		Runnable producer1 = new AProducer<String>(greetings, "Hello");¶//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");¶//		(new Thread(producer1)).start();¶//		(new Thread(producer2)).start();¶//	}¶	¶	@Override¶	public void addPropertyChangeListener(PropertyChangeListener arg0) {¶		propertySupport.addPropertyChangeListener(arg0);¶		propertySupport.notifyAll();¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="29" _type="PauseCommand" date="Sun Mar 19 12:27:56 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="106372">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3768]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="30" _type="MoveCaretCommand" caretOffset="9200" date="Sun Mar 19 12:27:56 EDT 2023" docOffset="10080" starttimestamp="1679243170443" timestamp="106512" />
+  <Command __id="32" _type="PauseCommand" date="Sun Mar 19 12:28:58 EDT 2023" range="1m-2m" starttimestamp="1679243170443" timestamp="167922">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[61410]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="31" _type="ShellCommand" date="Sun Mar 19 12:28:58 EDT 2023" starttimestamp="1679243170443" timestamp="167922" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="34" _type="PauseCommand" date="Sun Mar 19 12:29:06 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="175611">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7689]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="33" _type="ShellCommand" date="Sun Mar 19 12:29:06 EDT 2023" starttimestamp="1679243170443" timestamp="175611" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="36" _type="PauseCommand" date="Sun Mar 19 12:29:07 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="176726">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1115]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="35" _type="ShellCommand" date="Sun Mar 19 12:29:07 EDT 2023" starttimestamp="1679243170443" timestamp="176726" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="38" _type="PauseCommand" date="Sun Mar 19 12:29:20 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="190230">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[13504]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="37" _type="ShellCommand" date="Sun Mar 19 12:29:20 EDT 2023" starttimestamp="1679243170443" timestamp="190230" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="40" _type="PauseCommand" date="Sun Mar 19 12:29:21 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="191533">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1303]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="39" _type="ShellCommand" date="Sun Mar 19 12:29:21 EDT 2023" starttimestamp="1679243170443" timestamp="191533" type="ECLIPSE_MINIMIZED" />
+  <Command __id="41" _type="ShellCommand" date="Sun Mar 19 12:29:21 EDT 2023" starttimestamp="1679243170443" timestamp="191538" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="43" _type="PauseCommand" date="Sun Mar 19 12:32:54 EDT 2023" range="2m-5m" starttimestamp="1679243170443" timestamp="403799">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[212260]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="47" _type="MoveCaretCommand" caretOffset="244" date="Sun Mar 19 12:33:00 EDT 2023" docOffset="311" starttimestamp="1679243170443" timestamp="409971" />
+  <Command __id="45" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:33:00 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="409679">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package pc.graphics;¶¶import java.beans.PropertyChangeEvent;¶import java.beans.PropertyChangeListener;¶import java.util.List;¶¶public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{¶	public static final int  MAX_SIZE = 8;¶	Object[] buffer = new Object[MAX_SIZE];¶	int size = 0;¶	int nextIn = 0;¶	int nextOut = 0;¶	¶	PropertyListenerSupport propertySupport = new APropertyListenerSupport();¶//	public synchronized void put(ElementType element) {¶¶	public void put(ElementType element) {¶//		if (size >= MAX_SIZE)¶//			return;¶		while (size >= MAX_SIZE) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		buffer[nextIn] = element;¶		int oldNextIn = nextIn;¶		nextIn = (nextIn + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));¶		size++;¶		//notify();¶	}	¶	¶//	public synchronized ElementType get() {¶	public  ElementType get() {¶//		if (size == 0) {¶//			return null;¶//		}¶		while (size == 0) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		ElementType retVal = (ElementType) buffer[nextOut];¶		int oldNextOut = nextOut;¶		nextOut = (nextOut + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));¶		size--;¶		//notify();¶		return retVal;		¶	}¶//	public static void main(String[] args) {¶//		BoundedBuffer<String> greetings = new ABoundedBuffer();¶//		Runnable producer1 = new AProducer<String>(greetings, "Hello");¶//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");¶//		(new Thread(producer1)).start();¶//		(new Thread(producer2)).start();¶//	}¶	¶	@Override¶	public void addPropertyChangeListener(PropertyChangeListener arg0) {¶		propertySupport.addPropertyChangeListener(arg0);¶		propertySupport.notifyAll();¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="49" _type="PauseCommand" date="Sun Mar 19 12:33:16 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="425588">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[15616]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="53" _type="MoveCaretCommand" caretOffset="244" date="Sun Mar 19 12:33:35 EDT 2023" docOffset="311" starttimestamp="1679243170443" timestamp="444702" />
+  <Command __id="51" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:33:35 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="444569">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package pc.graphics;¶¶import java.beans.PropertyChangeEvent;¶import java.beans.PropertyChangeListener;¶import java.util.List;¶¶public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{¶	public static final int  MAX_SIZE = 8;¶	Object[] buffer = new Object[MAX_SIZE];¶	int size = 0;¶	int nextIn = 0;¶	int nextOut = 0;¶	¶	PropertyListenerSupport propertySupport = new APropertyListenerSupport();¶//	public synchronized void put(ElementType element) {¶¶	public void put(ElementType element) {¶//		if (size >= MAX_SIZE)¶//			return;¶		while (size >= MAX_SIZE) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		buffer[nextIn] = element;¶		int oldNextIn = nextIn;¶		nextIn = (nextIn + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));¶		size++;¶		//notify();¶	}	¶	¶//	public synchronized ElementType get() {¶	public  ElementType get() {¶//		if (size == 0) {¶//			return null;¶//		}¶		while (size == 0) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		ElementType retVal = (ElementType) buffer[nextOut];¶		int oldNextOut = nextOut;¶		nextOut = (nextOut + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));¶		size--;¶		//notify();¶		return retVal;		¶	}¶//	public static void main(String[] args) {¶//		BoundedBuffer<String> greetings = new ABoundedBuffer();¶//		Runnable producer1 = new AProducer<String>(greetings, "Hello");¶//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");¶//		(new Thread(producer1)).start();¶//		(new Thread(producer2)).start();¶//	}¶	¶	@Override¶	public void addPropertyChangeListener(PropertyChangeListener arg0) {¶		propertySupport.addPropertyChangeListener(arg0);¶		propertySupport.notifyAll();¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="55" _type="PauseCommand" date="Sun Mar 19 12:33:53 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="462725">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[18023]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="59" _type="MoveCaretCommand" caretOffset="244" date="Sun Mar 19 12:34:25 EDT 2023" docOffset="311" starttimestamp="1679243170443" timestamp="494859" />
+  <Command __id="57" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:34:25 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="494624">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package pc.graphics;¶¶import java.beans.PropertyChangeEvent;¶import java.beans.PropertyChangeListener;¶import java.util.List;¶¶public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{¶	public static final int  MAX_SIZE = 8;¶	Object[] buffer = new Object[MAX_SIZE];¶	int size = 0;¶	int nextIn = 0;¶	int nextOut = 0;¶	¶	PropertyListenerSupport propertySupport = new APropertyListenerSupport();¶//	public synchronized void put(ElementType element) {¶¶	public void put(ElementType element) {¶//		if (size >= MAX_SIZE)¶//			return;¶		while (size >= MAX_SIZE) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		buffer[nextIn] = element;¶		int oldNextIn = nextIn;¶		nextIn = (nextIn + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));¶		size++;¶		//notify();¶	}	¶	¶//	public synchronized ElementType get() {¶	public  ElementType get() {¶//		if (size == 0) {¶//			return null;¶//		}¶		while (size == 0) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		ElementType retVal = (ElementType) buffer[nextOut];¶		int oldNextOut = nextOut;¶		nextOut = (nextOut + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));¶		size--;¶		//notify();¶		return retVal;		¶	}¶//	public static void main(String[] args) {¶//		BoundedBuffer<String> greetings = new ABoundedBuffer();¶//		Runnable producer1 = new AProducer<String>(greetings, "Hello");¶//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");¶//		(new Thread(producer1)).start();¶//		(new Thread(producer2)).start();¶//	}¶	¶	@Override¶	public void addPropertyChangeListener(PropertyChangeListener arg0) {¶		propertySupport.addPropertyChangeListener(arg0);¶		propertySupport.notifyAll();¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="61" _type="PauseCommand" date="Sun Mar 19 12:34:33 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="502644">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[7785]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="62" _type="MoveCaretCommand" caretOffset="5816" date="Sun Mar 19 12:34:33 EDT 2023" docOffset="6696" starttimestamp="1679243170443" timestamp="502852" />
+  <Command __id="64" _type="PauseCommand" date="Sun Mar 19 12:35:19 EDT 2023" range="30s-1m" starttimestamp="1679243170443" timestamp="548820">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[45968]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="63" _type="MoveCaretCommand" caretOffset="5968" date="Sun Mar 19 12:35:19 EDT 2023" docOffset="6848" starttimestamp="1679243170443" timestamp="548820" />
+  <Command __id="66" _type="PauseCommand" date="Sun Mar 19 12:36:19 EDT 2023" range="30s-1m" starttimestamp="1679243170443" timestamp="608737">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[59917]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="65" _type="MoveCaretCommand" caretOffset="6357" date="Sun Mar 19 12:36:19 EDT 2023" docOffset="7237" starttimestamp="1679243170443" timestamp="608737" />
+  <Command __id="67" _type="SelectTextCommand" caretOffset="6366" date="Sun Mar 19 12:36:19 EDT 2023" end="6366" start="6346" starttimestamp="1679243170443" timestamp="608957" />
+  <Command __id="69" _type="PauseCommand" date="Sun Mar 19 12:36:22 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="611977">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[3020]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="68" _type="MoveCaretCommand" caretOffset="6321" date="Sun Mar 19 12:36:22 EDT 2023" docOffset="7201" starttimestamp="1679243170443" timestamp="611977" />
+  <Command __id="71" _type="PauseCommand" date="Sun Mar 19 12:36:25 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="614726">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2748]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="70" _type="MoveCaretCommand" caretOffset="6325" date="Sun Mar 19 12:36:25 EDT 2023" docOffset="7205" starttimestamp="1679243170443" timestamp="614725" />
+  <Command __id="60" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:34:33 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9773" docExpressionCount="1160" docLength="10344" projectName="ProducersConsumersV3" starttimestamp="1679243170443" timestamp="502644">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumersV3\src\graphics\AProducerConsumerScene.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package graphics;¶¶import java.util.ArrayList;¶import java.util.LinkedList;¶import java.util.List;¶import java.util.Queue;¶¶import animations.ACookingPlateAnimator;¶import animations.ACookingPlateCommand;¶import animations.AServingPlateAnimator;¶import animations.AServingPlateCommand;¶import animations.CookingPlateAnimator;¶import animations.ServingPlateAnimator;¶import bus.uigen.OEFrame;¶import bus.uigen.ObjectEditor;¶import bus.uigen.shapes.ALineModel;¶import bus.uigen.shapes.AStringModel;¶import bus.uigen.shapes.AnImageModel;¶import bus.uigen.shapes.OEShapeModel;¶import shapes.FlexibleTextShape;¶import util.annotations.EditablePropertyNames;¶import util.annotations.Label;¶import util.annotations.PropertyNames;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Visible;¶import util.misc.ThreadSupport;¶¶import java.awt.Color;¶¶@StructurePattern(StructurePatternNames.BEAN_PATTERN)¶@PropertyNames({¶	"patronList",¶	"chefList",¶	"buffer",¶	"plateList",¶	"otherPlateList",¶	"bellsList",¶	"queueBellList"¶})¶@EditablePropertyNames({¶})¶public class AProducerConsumerScene implements ProducerConsumerScene {¶	¶	//Avatar offsets inside scene¶	int[] chefXValues = {120,-50,-50,120};¶	int[] chefYValues = {-50,35,210,320};¶	int[] patronXValues = {650,850,850,650};¶	int[] patronYValues = {-50,35,220,320};¶	int[] bellXValues = {680,880,880,680};¶	int[] bellYValues = {75,160,345,445};¶	int INIT_HEAD_Y = 60;¶	int INIT_HEAD_X = 163;¶	int INIT_HEAD_HEIGHT = 90;¶	int INIT_HEAD_WIDTH = 80;¶	int PLATE_OFFSET_X = 30;¶	int PLATE_OFFSET_Y = 10;¶	int PAUSE = 5;¶	¶	//Booleans that help with the functionality of the below methods¶	boolean INIT_COOK = true;¶	boolean full = false;¶	int fullPlateOffset = -5;¶	¶	//Defining the chef and patron images¶	String[] chefImages = {"images/0.png","images/1.png","images/2.png","images/3.png"};¶	String[] patronImages = {"images/4.png", "images/5.png", "images/6.png", "images/7.png"};¶	¶	//Buffer arrays¶	int[] bufferXValues = {625, 680, 680, 620, 535, 460, 460, 535};¶	int[] bufferYValues = {200, 275, 365, 425, 425, 365, 275, 200};¶	boolean[] isFull = {false, false, false, false, false, false, false, false};¶	¶	//The properties of our class¶	List<APatron> patronList;¶	List<AChef> chefList;¶	BoundedBuffer buffer = new ABoundedBuffer();¶	List<APlate> plateList;¶	Queue<APlate> otherPlateList;¶	¶	OEShapeModel[] lineArray = {buffer.getLineTwo(), buffer.getLineThree(), buffer.getLineFour(), ¶								buffer.getLineFive(), buffer.getLineSix(), buffer.getLineSeven(), ¶								buffer.getLineEight(), buffer.getLineOne()};¶	¶	List<ABell> bellsList;¶	Queue<ABell> queueBellList;¶	int[] bellValues = {127, 212, 397, 497};¶	Queue<Integer> bellIntegerList;¶	¶	ACookingPlateCommand cookingCommand;¶	CookingPlateAnimator cookingAnimator;¶	¶	AServingPlateCommand servingCommand;¶	ServingPlateAnimator servingAnimator;¶	¶	//The constructor sets the scene with one chef, patron, a buffer, and a plate (not visible)¶	public AProducerConsumerScene() {¶		patronList = new ArrayList<APatron>();¶		chefList = new ArrayList<AChef>();¶		//buffer = new ABoundedBuffer();¶		plateList = new ArrayList<APlate>();¶		otherPlateList = new LinkedList<APlate>();¶		bellsList = new ArrayList<ABell>();¶		queueBellList = new LinkedList<ABell>();¶		bellIntegerList = new LinkedList<Integer>();¶		¶		patronList.add(0, new APatron());¶		OEShapeModel initPatronHead = new AnImageModel(patronImages[0]);¶		initPatronHead.setX(INIT_HEAD_X);¶		initPatronHead.setY(INIT_HEAD_Y);¶		initPatronHead.setHeight(INIT_HEAD_HEIGHT);¶		initPatronHead.setWidth(INIT_HEAD_WIDTH);¶		patronList.get(0).patron.setHead(initPatronHead);¶		patronList.get(0).move(patronXValues[0], patronYValues[0]);¶		¶		chefList.add(0, new AChef());¶		OEShapeModel initChefHead = new AnImageModel(chefImages[0]);¶		initChefHead.setX(INIT_HEAD_X);¶		initChefHead.setY(INIT_HEAD_Y);¶		initChefHead.setHeight(INIT_HEAD_HEIGHT);¶		initChefHead.setWidth(INIT_HEAD_WIDTH);¶		chefList.get(0).chef.setHead(initChefHead);¶		chefList.get(0).move(chefXValues[0], chefYValues[0]);¶		¶		plateList.add(new APlate());¶		plateList.get(0).getPlate().setHeight(0);¶		plateList.get(0).getPlate().setWidth(0);¶		¶		otherPlateList.add(new APlate());¶		otherPlateList.peek().getPlate().setHeight(0);¶		otherPlateList.peek().getPlate().setWidth(0);¶		¶		cookingAnimator = new ACookingPlateAnimator();¶		servingAnimator = new AServingPlateAnimator();¶		¶		bellsList.add(new ABell());¶		bellsList.get(0).getBell().setHeight(0);¶		bellsList.get(0).getBell().setWidth(0);¶		¶		queueBellList.add(new ABell());¶		queueBellList.peek().getBell().setHeight(0);¶		queueBellList.peek().getBell().setWidth(0);¶		¶		bellIntegerList.add(0);¶	}¶	¶	//Producer consumer methods¶	¶	//Init Scene sets the number of patrons and chefs in the scene¶	@Label("Init Scene")¶	public void initScene(int patronAmount, int chefAmount) {¶		bellsList.clear();¶		for (int i=0; i<patronAmount; i++) { ¶			APatron patron = new APatron();¶			patronList.add(i, patron);¶			OEShapeModel newHead = new AnImageModel(patronImages[i]);¶			patron.patron.setHead(newHead); ¶			newHead.setX(INIT_HEAD_X); ¶			newHead.setY(INIT_HEAD_Y);¶			newHead.setHeight(INIT_HEAD_HEIGHT);¶			newHead.setWidth(INIT_HEAD_WIDTH);¶			patron.move(patronXValues[i], patronYValues[i]);¶			¶			bellsList.add(new ABell());¶			bellsList.get(i).move(bellXValues[i], bellYValues[i]);¶		}¶		for (int i=0; i<chefAmount; i++) {¶			AChef chef = new AChef();¶			chefList.add(i, chef);¶			OEShapeModel newHead = new AnImageModel(chefImages[i]);¶			chef.chef.setHead(newHead);¶			newHead.setX(INIT_HEAD_X); ¶			newHead.setY(INIT_HEAD_Y);¶			newHead.setHeight(INIT_HEAD_HEIGHT);¶			newHead.setWidth(INIT_HEAD_WIDTH);¶			chef.move(chefXValues[i], chefYValues[i]);¶		}¶	}¶	¶	//Once the head of an avatar is chosen, it makes the plate that they "cook" appear¶	public void cook(OEShapeModel head) {¶		if (INIT_COOK) {¶			INIT_COOK=!INIT_COOK;¶			plateList.remove(0);¶			otherPlateList.remove();¶		}¶		¶		int headX = head.getCenterX();¶		int headY = head.getCenterY();¶		APlate newPlate = new APlate(plateList.size()+1);¶		newPlate.getPlate().setHeight(0);¶		newPlate.getPlate().setWidth(0);¶		plateList.add(newPlate);¶		otherPlateList.add(newPlate);¶		¶		if (full) {¶			newPlate.move(headX+PLATE_OFFSET_X, headY+PLATE_OFFSET_Y+fullPlateOffset);¶			fullPlateOffset = fullPlateOffset - 5;¶		} else {¶			newPlate.move(headX+PLATE_OFFSET_X, headY+PLATE_OFFSET_Y);¶		}¶		¶		cookingCommand = new ACookingPlateCommand(cookingAnimator, newPlate, 40, 15);¶		Thread thread = new Thread (cookingCommand);¶		thread.start();¶	}¶	¶	public void serve() {¶		//Checks to see if the buffer is full. If it is, then can't serve.¶		resetLineColors();¶		if(checkIfFull()) {¶			resetLineColors();¶			return;¶		}¶		¶		Plate workingPlate = otherPlateList.peek();¶		int workingPlatePlace = Integer.valueOf(workingPlate.getText().getText())-1;¶		changeLineColors(workingPlatePlace);¶		servingCommand = new AServingPlateCommand(servingAnimator,workingPlate,PAUSE, bufferXValues[workingPlatePlace], bufferYValues[workingPlatePlace]);¶		Thread thread = new Thread(servingCommand);¶		thread.start();¶		isFull[workingPlatePlace] = true;¶		otherPlateList.remove();¶	}¶	¶	public void order(OEShapeModel bell) {¶		if(checkIfFull()) {¶			resetLineColors();¶			resetBuffer();¶		}¶		bellIntegerList.add(0);¶		int bellPlace = findBell(bell.getCenterY());¶		bellsList.get(bellPlace).getText().setText(String.valueOf(bellIntegerList.size()-1));¶		¶		int platePlace = findFirstAvailablePlate();¶		servingCommand = new AServingPlateCommand(servingAnimator,plateList.get(platePlace),PAUSE, bell.getCenterX() , bell.getCenterY());¶		Thread thread = new Thread(servingCommand);¶		thread.start();¶		¶		cookingCommand = new ACookingPlateCommand(cookingAnimator, plateList.get(0), 0, 15);¶		Thread eatingThread = new Thread (cookingCommand);¶		eatingThread.start();¶		plateList.get(0).getText().setText("");¶	}¶	¶	public void eat() {¶		plateList.remove(0);¶	}¶	¶	@Override¶	@Visible(false)¶	public int findBell(int centerY) {¶		for(int i=0; i<bellsList.size();i++) {¶			if(bellsList.get(i).getBell().getCenterY() == centerY) {¶				return i;¶			}¶		}¶		return 0;¶	}¶	¶	@Override¶	@Visible(false)¶	public int findFirstAvailablePlate() {¶		for (int i=0; i<isFull.length;i++) {¶			if(isFull[i] == true) {¶				return i;¶			}¶		}¶		return 0;¶	}¶	¶	@Override¶	@Visible(false)¶	public void resetBuffer() {¶		¶		for (int i=0; i<isFull.length;i++) {¶			isFull[i] = false;¶		}¶	}¶	¶	@Override¶	@Visible(false)¶	public int findPatron(OEShapeModel patronHead) {¶		return 0;¶	}¶	¶	@Override¶	@Visible(false)¶	public boolean checkIfFull() {¶		for (int i=0; i<isFull.length;i++) {¶			if (isFull[i] == false) {¶				full = false;¶				return full;¶			}¶		}¶		full = true;¶		return full;¶	}¶	¶	@Override¶	@Visible(false)¶	public void changeLineColors(int workingPlatePlace) {¶		if(workingPlatePlace == lineArray.length-1) {¶			lineArray[workingPlatePlace].setColor(Color.GREEN);¶			lineArray[0].setColor(Color.GREEN);¶		} else {¶			lineArray[workingPlatePlace].setColor(Color.GREEN);¶			lineArray[workingPlatePlace+1].setColor(Color.GREEN);¶		}¶	}¶	¶	¶	@Override¶	@Visible(false)¶	public void resetLineColors() {¶		for (int i=0; i<lineArray.length; i++) {¶			lineArray[i].setColor(Color.WHITE);¶		}¶	}¶	¶	//Getters for properties of the scene¶	@Override¶	public List<AChef> getChefList() {¶		return chefList;¶	}¶	¶	@Override¶	public List<APatron> getPatronList() {¶		return patronList;¶	}¶	¶	@Override¶	public BoundedBuffer getBuffer() {¶		return buffer;¶	}¶	¶	@Override¶	public List<APlate> getPlateList() {¶		return plateList;¶	}	¶	¶	@Override¶	@util.annotations.Visible(false)¶	public Queue<APlate> getOtherPlateList() {¶		return otherPlateList;¶	}¶	¶	@Override¶	public List<ABell> getBellsList() {¶		return bellsList;¶	}¶	¶	@Override¶	@Visible(false)¶	public Queue<ABell> getQueueBellList() {¶		return queueBellList;¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="73" _type="PauseCommand" date="Sun Mar 19 12:36:27 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="617155">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2430]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="74" _type="InsertStringCommand" date="Sun Mar 19 12:36:27 EDT 2023" starttimestamp="1679243170443" timestamp="617249" timestamp2="617249">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="76" _type="PauseCommand" date="Sun Mar 19 12:36:29 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="619181">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1932]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="75" _type="MoveCaretCommand" caretOffset="6545" date="Sun Mar 19 12:36:29 EDT 2023" docOffset="7425" starttimestamp="1679243170443" timestamp="619181" />
+  <Command __id="78" _type="InsertStringCommand" date="Sun Mar 19 12:36:30 EDT 2023" starttimestamp="1679243170443" timestamp="619856" timestamp2="619856">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="79" _type="MoveCaretCommand" caretOffset="6541" date="Sun Mar 19 12:36:31 EDT 2023" docOffset="7421" starttimestamp="1679243170443" timestamp="620843" />
+  <Command __id="81" _type="PauseCommand" date="Sun Mar 19 12:36:46 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="635609">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[14766]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="80" _type="MoveCaretCommand" caretOffset="6545" date="Sun Mar 19 12:36:46 EDT 2023" docOffset="7425" starttimestamp="1679243170443" timestamp="635609" />
+  <Command __id="83" _type="PauseCommand" date="Sun Mar 19 12:36:47 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="636999">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1389]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="82" _type="ShellCommand" date="Sun Mar 19 12:36:47 EDT 2023" starttimestamp="1679243170443" timestamp="636998" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="85" _type="PauseCommand" date="Sun Mar 19 12:37:44 EDT 2023" range="30s-1m" starttimestamp="1679243170443" timestamp="694407">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[57409]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="84" _type="ShellCommand" date="Sun Mar 19 12:37:44 EDT 2023" starttimestamp="1679243170443" timestamp="694407" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="86" _type="MoveCaretCommand" caretOffset="5992" date="Sun Mar 19 12:37:45 EDT 2023" docOffset="6872" starttimestamp="1679243170443" timestamp="694613" />
+  <Command __id="88" _type="PauseCommand" date="Sun Mar 19 12:37:47 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="697538">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2925]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="87" _type="MoveCaretCommand" caretOffset="5971" date="Sun Mar 19 12:37:47 EDT 2023" docOffset="6851" starttimestamp="1679243170443" timestamp="697538" />
+  <Command __id="90" _type="PauseCommand" date="Sun Mar 19 12:38:05 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="714579">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[17041]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="89" _type="MoveCaretCommand" caretOffset="5971" date="Sun Mar 19 12:38:05 EDT 2023" docOffset="6851" starttimestamp="1679243170443" timestamp="714579" />
+  <Command __id="92" _type="PauseCommand" date="Sun Mar 19 12:38:34 EDT 2023" range="20s-30s" starttimestamp="1679243170443" timestamp="743954">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[29375]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="91" _type="MoveCaretCommand" caretOffset="5995" date="Sun Mar 19 12:38:34 EDT 2023" docOffset="6875" starttimestamp="1679243170443" timestamp="743954" />
+  <Command __id="94" _type="PauseCommand" date="Sun Mar 19 12:38:35 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="745502">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1548]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="93" _type="MoveCaretCommand" caretOffset="6150" date="Sun Mar 19 12:38:35 EDT 2023" docOffset="7030" starttimestamp="1679243170443" timestamp="745502" />
+  <Command __id="96" _type="InsertStringCommand" date="Sun Mar 19 12:38:36 EDT 2023" starttimestamp="1679243170443" timestamp="745876" timestamp2="745876">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="98" _type="InsertStringCommand" date="Sun Mar 19 12:38:36 EDT 2023" starttimestamp="1679243170443" timestamp="746167" timestamp2="746167">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="100" _type="InsertStringCommand" date="Sun Mar 19 12:38:37 EDT 2023" starttimestamp="1679243170443" timestamp="746820" timestamp2="746820">
+    <data><![CDATA[/]]></data>
+  </Command>
+  <Command __id="102" _type="InsertStringCommand" date="Sun Mar 19 12:38:37 EDT 2023" starttimestamp="1679243170443" timestamp="746941" timestamp2="746941">
+    <data><![CDATA[/]]></data>
+  </Command>
+  <DocumentChange __id="72" _type="Insert" date="Sun Mar 19 12:36:27 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9777" docExpressionCount="1160" docLength="10348" length="4" offset="7205" starttimestamp="1679243170443" timestamp="617155">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="77" _type="Insert" date="Sun Mar 19 12:36:30 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9781" docExpressionCount="1160" docLength="10352" length="4" offset="7425" starttimestamp="1679243170443" timestamp="619792">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="95" _type="Insert" date="Sun Mar 19 12:38:36 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9789" docExpressionCount="1160" docLength="10362" length="10" offset="7030" repeat="4" starttimestamp="1679243170443" timestamp="745839" timestamp2="746903">
+    <text><![CDATA[
+		
+		//]]></text>
+  </DocumentChange>
+  <Command __id="104" _type="PauseCommand" date="Sun Mar 19 12:38:41 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="750749">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[3808]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="105" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="750776" timestamp2="750776">
+    <data><![CDATA[D]]></data>
+  </Command>
+  <Command __id="107" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="750921" timestamp2="750921">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="109" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751029" timestamp2="751029">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="111" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751180" timestamp2="751180">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="113" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751247" timestamp2="751247">
+    <data><![CDATA[b]]></data>
+  </Command>
+  <Command __id="115" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751377" timestamp2="751377">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="117" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751475" timestamp2="751475">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="119" _type="InsertStringCommand" date="Sun Mar 19 12:38:41 EDT 2023" starttimestamp="1679243170443" timestamp="751538" timestamp2="751538">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="121" _type="InsertStringCommand" date="Sun Mar 19 12:38:42 EDT 2023" starttimestamp="1679243170443" timestamp="751948" timestamp2="751948">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="123" _type="InsertStringCommand" date="Sun Mar 19 12:38:42 EDT 2023" starttimestamp="1679243170443" timestamp="752111" timestamp2="752111">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="125" _type="InsertStringCommand" date="Sun Mar 19 12:38:42 EDT 2023" starttimestamp="1679243170443" timestamp="752224" timestamp2="752224">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="127" _type="InsertStringCommand" date="Sun Mar 19 12:38:42 EDT 2023" starttimestamp="1679243170443" timestamp="752375" timestamp2="752375">
+    <data><![CDATA[v]]></data>
+  </Command>
+  <Command __id="129" _type="InsertStringCommand" date="Sun Mar 19 12:38:42 EDT 2023" starttimestamp="1679243170443" timestamp="752481" timestamp2="752481">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="131" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752591" timestamp2="752591">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="133" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752689" timestamp2="752689">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="135" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752749" timestamp2="752749">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="137" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752798" timestamp2="752798">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="139" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752873" timestamp2="752873">
+    <data><![CDATA[f]]></data>
+  </Command>
+  <Command __id="141" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="752949" timestamp2="752949">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="143" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="753102" timestamp2="753102">
+    <data><![CDATA[f]]></data>
+  </Command>
+  <Command __id="145" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="753223" timestamp2="753223">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="147" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="753374" timestamp2="753374">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="149" _type="InsertStringCommand" date="Sun Mar 19 12:38:43 EDT 2023" starttimestamp="1679243170443" timestamp="753499" timestamp2="753499">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="151" _type="PauseCommand" date="Sun Mar 19 12:38:45 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="755147">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1648]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="150" _type="MoveCaretCommand" caretOffset="6205" date="Sun Mar 19 12:38:45 EDT 2023" docOffset="7085" starttimestamp="1679243170443" timestamp="755147" />
+  <Command __id="153" _type="PauseCommand" date="Sun Mar 19 12:38:46 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="756516">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1369]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="152" _type="MoveCaretCommand" caretOffset="6187" date="Sun Mar 19 12:38:46 EDT 2023" docOffset="7067" starttimestamp="1679243170443" timestamp="756516" />
+  <Command __id="155" _type="PauseCommand" date="Sun Mar 19 12:38:47 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="757549">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1033]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="154" _type="MoveCaretCommand" caretOffset="6168" date="Sun Mar 19 12:38:47 EDT 2023" docOffset="7048" starttimestamp="1679243170443" timestamp="757549" />
+  <Command __id="156" _type="SelectTextCommand" caretOffset="6175" date="Sun Mar 19 12:38:48 EDT 2023" end="6175" start="6168" starttimestamp="1679243170443" timestamp="757693" />
+  <Command __id="157" _type="SelectTextCommand" caretOffset="6185" date="Sun Mar 19 12:38:48 EDT 2023" end="6185" start="6156" starttimestamp="1679243170443" timestamp="757916" />
+  <Command __id="158" _type="MoveCaretCommand" caretOffset="6168" date="Sun Mar 19 12:38:49 EDT 2023" docOffset="7048" starttimestamp="1679243170443" timestamp="758581" />
+  <Command __id="160" _type="PauseCommand" date="Sun Mar 19 12:38:50 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="759717">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1136]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="159" _type="MoveCaretCommand" caretOffset="6178" date="Sun Mar 19 12:38:50 EDT 2023" docOffset="7058" starttimestamp="1679243170443" timestamp="759717" />
+  <Command __id="162" _type="InsertStringCommand" date="Sun Mar 19 12:38:50 EDT 2023" starttimestamp="1679243170443" timestamp="759992" timestamp2="759992">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="164" _type="InsertStringCommand" date="Sun Mar 19 12:38:50 EDT 2023" starttimestamp="1679243170443" timestamp="760116" timestamp2="760116">
+    <data><![CDATA[n]]></data>
+  </Command>
+  <Command __id="166" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Mar 19 12:38:51 EDT 2023" starttimestamp="1679243170443" timestamp="760723" />
+  <Command __id="168" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Mar 19 12:38:51 EDT 2023" starttimestamp="1679243170443" timestamp="760857" />
+  <Command __id="170" _type="PauseCommand" date="Sun Mar 19 12:38:52 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="762316">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1459]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="169" _type="MoveCaretCommand" caretOffset="6183" date="Sun Mar 19 12:38:52 EDT 2023" docOffset="7063" starttimestamp="1679243170443" timestamp="762316" />
+  <Command __id="172" _type="PauseCommand" date="Sun Mar 19 12:38:56 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="765680">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3364]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="171" _type="MoveCaretCommand" caretOffset="6183" date="Sun Mar 19 12:38:56 EDT 2023" docOffset="7063" starttimestamp="1679243170443" timestamp="765680" />
+  <Command __id="174" _type="PauseCommand" date="Sun Mar 19 12:39:05 EDT 2023" range="5s-10s" starttimestamp="1679243170443" timestamp="775341">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[9661]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="173" _type="MoveCaretCommand" caretOffset="6183" date="Sun Mar 19 12:39:05 EDT 2023" docOffset="7063" starttimestamp="1679243170443" timestamp="775341" />
+  <DocumentChange __id="103" _type="Insert" date="Sun Mar 19 12:38:41 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9789" docExpressionCount="1160" docLength="10385" length="23" offset="7040" repeat="23" starttimestamp="1679243170443" timestamp="750749" timestamp2="753478">
+    <text><![CDATA[Disable serving if full]]></text>
+  </DocumentChange>
+  <DocumentChange __id="161" _type="Insert" date="Sun Mar 19 12:38:50 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9789" docExpressionCount="1160" docLength="10387" length="2" offset="7058" repeat="2" starttimestamp="1679243170443" timestamp="759973" timestamp2="760081">
+    <text><![CDATA[ n]]></text>
+  </DocumentChange>
+  <DocumentChange __id="165" _type="Delete" date="Sun Mar 19 12:38:51 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9789" docExpressionCount="1160" docLength="10385" endLine="215" length="2" offset="7058" repeat="2" startLine="215" starttimestamp="1679243170443" timestamp="760695" timestamp2="760841">
+    <text><![CDATA[ n]]></text>
+  </DocumentChange>
+  <Command __id="176" _type="PauseCommand" date="Sun Mar 19 12:39:19 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="789114">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[13773]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="177" _type="InsertStringCommand" date="Sun Mar 19 12:39:19 EDT 2023" starttimestamp="1679243170443" timestamp="789167" timestamp2="789167">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="179" _type="PauseCommand" date="Sun Mar 19 12:39:22 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="791722">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[2555]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="178" _type="MoveCaretCommand" caretOffset="6183" date="Sun Mar 19 12:39:22 EDT 2023" docOffset="7063" starttimestamp="1679243170443" timestamp="791722" />
+  <Command __id="181" _type="InsertStringCommand" date="Sun Mar 19 12:39:22 EDT 2023" starttimestamp="1679243170443" timestamp="792263" timestamp2="792263">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="183" _type="InsertStringCommand" date="Sun Mar 19 12:39:22 EDT 2023" starttimestamp="1679243170443" timestamp="792550" timestamp2="792550">
+    <data><![CDATA[(]]></data>
+  </Command>
+  <Command __id="185" _type="InsertStringCommand" date="Sun Mar 19 12:39:23 EDT 2023" starttimestamp="1679243170443" timestamp="793233" timestamp2="793233">
+    <data><![CDATA[b]]></data>
+  </Command>
+  <Command __id="187" _type="InsertStringCommand" date="Sun Mar 19 12:39:23 EDT 2023" starttimestamp="1679243170443" timestamp="793410" timestamp2="793410">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="189" _type="InsertStringCommand" date="Sun Mar 19 12:39:24 EDT 2023" starttimestamp="1679243170443" timestamp="793611" timestamp2="793611">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="191" _type="InsertStringCommand" date="Sun Mar 19 12:39:24 EDT 2023" starttimestamp="1679243170443" timestamp="793729" timestamp2="793729">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="193" _type="InsertStringCommand" date="Sun Mar 19 12:39:24 EDT 2023" starttimestamp="1679243170443" timestamp="793828" timestamp2="793828">
+    <data><![CDATA[k]]></data>
+  </Command>
+  <Command __id="195" _type="InsertStringCommand" date="Sun Mar 19 12:39:24 EDT 2023" starttimestamp="1679243170443" timestamp="793963" timestamp2="793963">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="197" _type="InsertStringCommand" date="Sun Mar 19 12:39:25 EDT 2023" starttimestamp="1679243170443" timestamp="794711" timestamp2="794711">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="199" _type="InsertStringCommand" date="Sun Mar 19 12:39:25 EDT 2023" starttimestamp="1679243170443" timestamp="794913" timestamp2="794913">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="201" _type="InsertStringCommand" date="Sun Mar 19 12:39:25 EDT 2023" starttimestamp="1679243170443" timestamp="795165" timestamp2="795165">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="203" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="795572" />
+  <Command __id="205" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="795683" timestamp2="795683">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="207" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="795805" timestamp2="795805">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="209" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="795914" timestamp2="795914">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="211" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="795968" timestamp2="795968">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="213" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="796093" timestamp2="796093">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="215" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="796149" timestamp2="796149">
+    <data><![CDATA[h]]></data>
+  </Command>
+  <Command __id="217" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="796228" timestamp2="796228">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="219" _type="InsertStringCommand" date="Sun Mar 19 12:39:26 EDT 2023" starttimestamp="1679243170443" timestamp="796319" timestamp2="796319">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="221" _type="InsertStringCommand" date="Sun Mar 19 12:39:27 EDT 2023" starttimestamp="1679243170443" timestamp="796613" timestamp2="796613">
+    <data><![CDATA[)]]></data>
+  </Command>
+  <Command __id="223" _type="PauseCommand" date="Sun Mar 19 12:39:41 EDT 2023" range="10s-20s" starttimestamp="1679243170443" timestamp="810597">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[13984]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="222" _type="SelectTextCommand" caretOffset="6160" date="Sun Mar 19 12:39:41 EDT 2023" end="6202" start="6160" starttimestamp="1679243170443" timestamp="810597" />
+  <DocumentChange __id="175" _type="Insert" date="Sun Mar 19 12:39:19 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10389" length="4" offset="7063" starttimestamp="1679243170443" timestamp="789114">
+    <text><![CDATA[
+		]]></text>
+  </DocumentChange>
+  <DocumentChange __id="180" _type="Insert" date="Sun Mar 19 12:39:22 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10400" length="11" offset="7063" repeat="11" starttimestamp="1679243170443" timestamp="792226" timestamp2="795141">
+    <text><![CDATA[ (block pu ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="202" _type="Delete" date="Sun Mar 19 12:39:25 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10399" endLine="215" length="1" offset="7073" startLine="215" starttimestamp="1679243170443" timestamp="795547">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="204" _type="Insert" date="Sun Mar 19 12:39:26 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10408" length="9" offset="7073" repeat="9" starttimestamp="1679243170443" timestamp="795660" timestamp2="796574">
+    <text><![CDATA[t method)]]></text>
+  </DocumentChange>
+  <Command __id="225" _type="PauseCommand" date="Sun Mar 19 12:39:43 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="812996">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[2399]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Replace]]></next>
+  </Command>
+  <DocumentChange __id="224" _type="Replace" date="Sun Mar 19 12:39:43 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10367" endLine="215" insertionLength="1" int_docASTNodeCount="1675" int_docActiveCodeLength="9793" int_docExpressionCount="1160" int_docLength="10366" length="42" offset="7040" startLine="215" starttimestamp="1679243170443" timestamp="812996">
+    <deletedText><![CDATA[Disable serving if full (block put method)]]></deletedText>
+    <insertedText><![CDATA[D]]></insertedText>
+  </DocumentChange>
+  <Command __id="226" _type="InsertStringCommand" date="Sun Mar 19 12:39:43 EDT 2023" starttimestamp="1679243170443" timestamp="813031" timestamp2="813031">
+    <data><![CDATA[D]]></data>
+  </Command>
+  <Command __id="228" _type="InsertStringCommand" date="Sun Mar 19 12:39:43 EDT 2023" starttimestamp="1679243170443" timestamp="813193" timestamp2="813193">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="230" _type="InsertStringCommand" date="Sun Mar 19 12:39:43 EDT 2023" starttimestamp="1679243170443" timestamp="813294" timestamp2="813294">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="232" _type="InsertStringCommand" date="Sun Mar 19 12:39:43 EDT 2023" starttimestamp="1679243170443" timestamp="813378" timestamp2="813378">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="234" _type="InsertStringCommand" date="Sun Mar 19 12:39:43 EDT 2023" starttimestamp="1679243170443" timestamp="813520" timestamp2="813520">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="236" _type="InsertStringCommand" date="Sun Mar 19 12:39:44 EDT 2023" starttimestamp="1679243170443" timestamp="813630" timestamp2="813630">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="238" _type="InsertStringCommand" date="Sun Mar 19 12:39:44 EDT 2023" starttimestamp="1679243170443" timestamp="813809" timestamp2="813809">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <DocumentChange __id="227" _type="Insert" date="Sun Mar 19 12:39:43 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10373" length="6" offset="7041" repeat="6" starttimestamp="1679243170443" timestamp="813165" timestamp2="813784">
+    <text><![CDATA[o put ]]></text>
+  </DocumentChange>
+  <Command __id="240" _type="PauseCommand" date="Sun Mar 19 12:39:45 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="814887">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1078]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <DocumentChange __id="239" _type="Delete" date="Sun Mar 19 12:39:45 EDT 2023" docASTNodeCount="1675" docActiveCodeLength="9793" docExpressionCount="1160" docLength="10372" endLine="215" length="1" offset="7046" startLine="215" starttimestamp="1679243170443" timestamp="814887">
+    <text><![CDATA[ ]]></text>
+  </DocumentChange>
+  <Command __id="241" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Sun Mar 19 12:39:45 EDT 2023" starttimestamp="1679243170443" timestamp="814908" />
+  <Command __id="243" _type="InsertStringCommand" date="Sun Mar 19 12:39:45 EDT 2023" starttimestamp="1679243170443" timestamp="815128" timestamp2="815128">
+    <data><![CDATA[,]]></data>
+  </Command>
+  <Command __id="245" _type="InsertStringCommand" date="Sun Mar 19 12:39:45 EDT 2023" starttimestamp="1679243170443" timestamp="815366" timestamp2="815366">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="247" _type="InsertStringCommand" date="Sun Mar 19 12:39:45 EDT 2023" starttimestamp="1679243170443" timestamp="815475" timestamp2="815475">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="249" _type="InsertStringCommand" date="Sun Mar 19 12:39:46 EDT 2023" starttimestamp="1679243170443" timestamp="815626" timestamp2="815626">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="251" _type="InsertStringCommand" date="Sun Mar 19 12:39:46 EDT 2023" starttimestamp="1679243170443" timestamp="815764" timestamp2="815764">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="253" _type="InsertStringCommand" date="Sun Mar 19 12:39:46 EDT 2023" starttimestamp="1679243170443" timestamp="815891" timestamp2="815891">
+    <data><![CDATA[w]]></data>
+  </Command>
+  <Command __id="255" _type="InsertStringCommand" date="Sun Mar 19 12:39:46 EDT 2023" starttimestamp="1679243170443" timestamp="816287" timestamp2="816287">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="257" _type="InsertStringCommand" date="Sun Mar 19 12:39:46 EDT 2023" starttimestamp="1679243170443" timestamp="816438" timestamp2="816438">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="259" _type="InsertStringCommand" date="Sun Mar 19 12:39:47 EDT 2023" starttimestamp="1679243170443" timestamp="816574" timestamp2="816574">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="261" _type="InsertStringCommand" date="Sun Mar 19 12:39:47 EDT 2023" starttimestamp="1679243170443" timestamp="816676" timestamp2="816676">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="263" _type="InsertStringCommand" date="Sun Mar 19 12:39:47 EDT 2023" starttimestamp="1679243170443" timestamp="817486" timestamp2="817486">
+    <data><![CDATA[d]]></data>
+  </Command>
+  <Command __id="265" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="817613" timestamp2="817613">
+    <data><![CDATA[i]]></data>
+  </Command>
+  <Command __id="267" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="817700" timestamp2="817700">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="269" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="817841" timestamp2="817841">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="271" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="817896" timestamp2="817896">
+    <data><![CDATA[b]]></data>
+  </Command>
+  <Command __id="273" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="818035" timestamp2="818035">
+    <data><![CDATA[l]]></data>
+  </Command>
+  <Command __id="275" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="818139" timestamp2="818139">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="277" _type="InsertStringCommand" date="Sun Mar 19 12:39:48 EDT 2023" starttimestamp="1679243170443" timestamp="818246" timestamp2="818246">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="279" _type="InsertStringCommand" date="Sun Mar 19 12:39:49 EDT 2023" starttimestamp="1679243170443" timestamp="819113" timestamp2="819113">
+    <data><![CDATA[f]]></data>
+  </Command>
+  <Command __id="281" _type="InsertStringCommand" date="Sun Mar 19 12:39:49 EDT 2023" starttimestamp="1679243170443" timestamp="819240" timestamp2="819240">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="283" _type="InsertStringCommand" date="Sun Mar 19 12:39:49 EDT 2023" starttimestamp="1679243170443" timestamp="819294" timestamp2="819294">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="285" _type="InsertStringCommand" date="Sun Mar 19 12:39:49 EDT 2023" starttimestamp="1679243170443" timestamp="819412" timestamp2="819412">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="287" _type="InsertStringCommand" date="Sun Mar 19 12:39:49 EDT 2023" starttimestamp="1679243170443" timestamp="819463" timestamp2="819463">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="289" _type="InsertStringCommand" date="Sun Mar 19 12:39:50 EDT 2023" starttimestamp="1679243170443" timestamp="819613" timestamp2="819613">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="291" _type="InsertStringCommand" date="Sun Mar 19 12:39:50 EDT 2023" starttimestamp="1679243170443" timestamp="819657" timestamp2="819657">
+    <data><![CDATA[h]]></data>
+  </Command>
+  <Command __id="293" _type="InsertStringCommand" date="Sun Mar 19 12:39:50 EDT 2023" starttimestamp="1679243170443" timestamp="819788" timestamp2="819788">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="295" _type="InsertStringCommand" date="Sun Mar 19 12:39:50 EDT 2023" starttimestamp="1679243170443" timestamp="819855" timestamp2="819855">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="297" _type="InsertStringCommand" date="Sun Mar 19 12:39:50 EDT 2023" starttimestamp="1679243170443" timestamp="819941" timestamp2="819941">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="299" _type="PauseCommand" date="Sun Mar 19 12:39:52 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="822313">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[2372]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="308" _type="MoveCaretCommand" caretOffset="244" date="Sun Mar 19 12:40:06 EDT 2023" docOffset="311" starttimestamp="1679243170443" timestamp="836531" />
+  <Command __id="306" _type="DiffBasedFileOpenCommand" date="Sun Mar 19 12:40:06 EDT 2023" docASTNodeCount="225" docActiveCodeLength="1435" docExpressionCount="131" docLength="1944" projectName="ProducersConsumer - Copy (2)" starttimestamp="1679243170443" timestamp="836423">
+    <filePath><![CDATA[C:\Users\wid\eclipse-workspace\ProducersConsumer - Copy (2)\src\pc\graphics\ABoundedBuffer.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package pc.graphics;¶¶import java.beans.PropertyChangeEvent;¶import java.beans.PropertyChangeListener;¶import java.util.List;¶¶public class ABoundedBuffer<ElementType> implements BoundedBuffer<ElementType>{¶	public static final int  MAX_SIZE = 8;¶	Object[] buffer = new Object[MAX_SIZE];¶	int size = 0;¶	int nextIn = 0;¶	int nextOut = 0;¶	¶	PropertyListenerSupport propertySupport = new APropertyListenerSupport();¶//	public synchronized void put(ElementType element) {¶¶	public void put(ElementType element) {¶//		if (size >= MAX_SIZE)¶//			return;¶		while (size >= MAX_SIZE) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		buffer[nextIn] = element;¶		int oldNextIn = nextIn;¶		nextIn = (nextIn + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextIn", oldNextIn, nextIn));¶		size++;¶		//notify();¶	}	¶	¶//	public synchronized ElementType get() {¶	public  ElementType get() {¶//		if (size == 0) {¶//			return null;¶//		}¶		while (size == 0) {¶			try {¶				wait();¶			} catch (InterruptedException e) {¶				e.printStackTrace();¶			}¶		}¶		ElementType retVal = (ElementType) buffer[nextOut];¶		int oldNextOut = nextOut;¶		nextOut = (nextOut + 1) % MAX_SIZE;¶		propertySupport.notifyAllListeners(new PropertyChangeEvent(this, "nextOut", oldNextOut, nextOut));¶		size--;¶		//notify();¶		return retVal;		¶	}¶//	public static void main(String[] args) {¶//		BoundedBuffer<String> greetings = new ABoundedBuffer();¶//		Runnable producer1 = new AProducer<String>(greetings, "Hello");¶//		Runnable producer2 = new AProducer<String>(greetings, "Ca Va");¶//		(new Thread(producer1)).start();¶//		(new Thread(producer2)).start();¶//	}¶	¶	@Override¶	public void addPropertyChangeListener(PropertyChangeListener arg0) {¶		propertySupport.addPropertyChangeListener(arg0);¶		propertySupport.notifyAll();¶	}¶}")]]]></diff>
+  </Command>
+  <Command __id="310" _type="PauseCommand" date="Sun Mar 19 12:40:11 EDT 2023" range="2s-5s" starttimestamp="1679243170443" timestamp="840783">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4252]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="312" _type="EclipseCommand" commandID="" date="Sun Mar 19 12:40:14 EDT 2023" starttimestamp="1679243170443" timestamp="844198" />
+  <Command __id="314" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Sun Mar 19 12:40:14 EDT 2023" starttimestamp="1679243170443" timestamp="844332" />
+  <Command __id="315" _type="EclipseCommand" commandID="" date="Sun Mar 19 12:40:15 EDT 2023" starttimestamp="1679243170443" timestamp="845171" />
+  <Command __id="317" _type="PauseCommand" date="Sun Mar 19 12:40:16 EDT 2023" range="1s-2s" starttimestamp="1679243170443" timestamp="846390">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1219]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="316" _type="ShellCommand" date="Sun Mar 19 12:40:16 EDT 2023" starttimestamp="1679243170443" timestamp="846390" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="319" _type="PauseCommand" date="Sun Mar 19 12:44:01 EDT 2023" range="2m-5m" starttimestamp="1679243170443" timestamp="1071467">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[225077]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

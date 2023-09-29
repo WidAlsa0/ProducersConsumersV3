@@ -1,0 +1,46 @@
+1/23/2023 08:49:38 AM	COMP 523 Class Homepage	https://www.cs.unc.edu/~stotts/COMP523-s23/
+1/23/2023 08:49:39 AM	COMP 523: Project Teams	https://www.cs.unc.edu/~stotts/COMP523-s23/teams.html
+1/23/2023 08:49:42 AM	COMP 523: Client Presentation	https://www.cs.unc.edu/~stotts/COMP523-s23/clientProps-s2023.html
+1/23/2023 08:53:38 AM	EX00 - Angular, Getting Started - COMP423 - 23S	https://comp423-23s.github.io/exercises/ex00-ng-getting-started.html
+1/23/2023 08:59:58 AM	COMP 523 Class Homepage	https://www.cs.unc.edu/~stotts/COMP523-s23/
+1/23/2023 08:58:41 AM	COMP 523: Project Teams	https://www.cs.unc.edu/~stotts/COMP523-s23/teams.html
+1/23/2023 11:07:47 AM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+1/23/2023 11:07:41 AM	Canvas | ITS Educational Technologies	https://edtech.unc.edu/service/canvas/
+1/23/2023 11:08:13 AM	ECON571.001.SP23	https://uncch.instructure.com/courses/15553
+1/23/2023 11:07:41 AM	Canvas | ITS Educational Technologies	https://canvas.unc.edu/
+1/23/2023 11:06:33 AM	COMP 523 Class Homepage	https://www.cs.unc.edu/~stotts/COMP523-s23/
+1/23/2023 11:08:17 AM	Files	https://uncch.instructure.com/courses/15553/files
+1/23/2023 11:08:23 AM	Files	https://uncch.instructure.com/courses/15553/files/folder/lecture_notes
+1/23/2023 11:07:36 AM	COMP 523: Project Teams	https://www.cs.unc.edu/~stotts/COMP523-s23/teams.html
+1/23/2023 11:08:08 AM	COMP590.140.SP23	https://uncch.instructure.com/courses/15787
+1/23/2023 11:08:06 AM	Course Reserves	https://uncch.instructure.com/courses/15787/external_tools/156
+1/23/2023 11:07:45 AM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fVLJTsMwEL3zFZHviZO06mK1lQoVohLQqikcuCDjTIglxw4em%2BXvcVIQRYhex2%2BbN54hb1TLlt7VegcvHtBF743SyPqHOfFWM8NRItO8AWROsGJ5c83yJGWtNc4Io8gR5TSDI4J10mgSrVdz8pjloxK4GMWZeErj4Xg6iafVeBBXk7SaQDqGshqQ6B4sBs6cBIlARPSw1ui4dmGU5oM4zeJ8sM9GLB2z4fCBRKuwh9Tc9azauRYZpYgm8VokUHoqy5aG%2BJVUQLt0Od1BKS0IR4tiQ6Lld9ALo9E3YAuwr1LA3e76RzCIiTqRIYr1wnkLiTANVeZZatp1QaLtV0PnUpdSP58u5%2BkAQna132%2Fj7abYk8Ws02H9ynbR%2BQZbUfMWVC2V%2BuPdofMZPSbNDhe%2BDXbr1dYoKT6iS2Mb7v5PkyVZP5FlXPVQ5jW2IGQloQzlKGXeLixwB3MS%2FIHQxcH0909anH0C&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=N4e0NJcaK9TxCm1SwLbSz%2B60IsPXuGwCsgwA4Lp5TGN7VBinh9H5s8TpPVETQkz%2FCPSheA1mu82vsomPsVwSYm%2B6Qnge87yOObgfB3ZvOlNRVLwK%2FXPgetvbGv6tBHsdhwJozgb4zWNbGc41i6uj3uykR3udsE1qRDybf2V7oAM62KMFMQp5scy%2FRe8aHi7LcTGoa3ttxEIOALayfOCs0Bygqg4rEepdD4xiPy54oC4yyqHXxj2wj%2B4o1qoWjb1muP1dMB3i7Ega4HFsw0x1IZbaXukLYRPeDm%2FvlUvAiZfuPunbs4xCW%2FRepQz0ftvaeVBtpI1QGwxGpAE%2B9x%2FARQ%3D%3D
+1/23/2023 11:08:52 AM	Files	https://uncch.instructure.com/courses/15553/files/folder/lecture_notes/01_linear_models_review?preview=2521871
+1/23/2023 11:10:33 AM	Eve Carson Scholarship Essays - Google Docs	https://docs.google.com/document/d/1iS-k_vqjPsqMbV3gZsSyAk7OeaNCnYOKFpLmj_tJ9eU/edit?usp=drive_web&ouid=100407440431679426204
+1/23/2023 11:10:40 AM	Eve Carson Scholarship Essays - Google Docs	https://docs.google.com/document/d/1iS-k_vqjPsqMbV3gZsSyAk7OeaNCnYOKFpLmj_tJ9eU/edit
+1/23/2023 11:09:15 AM	Files	https://uncch.instructure.com/courses/15553/files/folder/lecture_notes/01_linear_models_review?
+1/23/2023 11:08:53 AM		https://uncch.instructure.com/courses/15553/files/2521871/file_preview?annotate=0
+1/23/2023 11:12:46 AM	Eve Carson Scholarship Essays - Google Docs	https://docs.google.com/sharing/boq/driveshare?id=1iS-k_vqjPsqMbV3gZsSyAk7OeaNCnYOKFpLmj_tJ9eU&resourcekey=%5B%221iS-k_vqjPsqMbV3gZsSyAk7OeaNCnYOKFpLmj_tJ9eU%22%2Cnull%5D&themeColor=1&foreignService=kix&gaiaService=writely&shareService=kix&command=init_share&subapp=10&popupWindowsEnabled=true&shareUiType=default&hl=en&authuser=0&rand=1674490253456&locationHint=unknown&preload=false&origin=https%3A%2F%2Fdocs.google.com
+1/23/2023 13:19:26 PM	Introduction to Programming - COMP423 - 23S	https://comp423-23s.github.io/
+1/23/2023 13:16:47 PM	Eve Carson Scholarship Essays - Google Docs	https://docs.google.com/document/d/1iS-k_vqjPsqMbV3gZsSyAk7OeaNCnYOKFpLmj_tJ9eU/edit
+1/23/2023 13:26:27 PM	Courses - Course.Care	https://course.care/courses
+1/23/2023 13:26:08 PM	Introduction to Programming - COMP423 - 23S	https://comp423-23s.github.io/
+1/23/2023 13:26:29 PM	Join a Course - Course.Care	https://course.care/course/join
+1/23/2023 13:28:24 PM	COMP 523 Class Homepage	https://www.cs.unc.edu/~stotts/COMP523-s23/
+1/23/2023 13:26:55 PM	COMP423 - Foundations of Software Engineering - Course.Care	https://course.care/ng/course/81
+1/23/2023 13:33:48 PM	UNC Computer Science Resume Reboot - Spring 2023	https://unc.us11.list-manage.com/track/click?u=9cc1f78d70aa64ee0f1b17641&id=bef6e02ebd&e=85d15f9b80
+1/23/2023 13:42:19 PM	(163) UNC Computer Science Spring Tech Career Fair - Spring 2023 (In-person) | Handshake	https://unc.us11.list-manage.com/track/click?u=9cc1f78d70aa64ee0f1b17641&id=60d25b1be0&e=85d15f9b80
+1/23/2023 13:42:20 PM	(163) UNC Computer Science Spring Tech Career Fair - Spring 2023 (In-person) | Handshake	https://unc.joinhandshake.com/stu/events/1196543
+1/23/2023 13:59:00 PM	Foundations of Software Engineering - COMP423	https://github.com/comp423-23s
+1/23/2023 13:59:01 PM	comp423-23s/comp423-23s.github.io: Course Website	https://github.com/comp423-23s/comp423-23s.github.io
+1/23/2023 14:10:43 PM	EX00 - Angular, Getting Started - COMP423 - 23S	https://comp423-23s.github.io/exercises/ex00-ng-getting-started.html
+1/23/2023 14:11:00 PM	COMP423 - Foundations of Software Engineering - Course.Care	https://course.care/ng/course/81
+1/23/2023 15:34:32 PM	PHIL185.001.SP23	https://uncch.instructure.com/courses/20898
+1/23/2023 17:16:47 PM	ParentVUE	https://mystudentlogin.aps.edu/
+1/23/2023 17:16:49 PM	ParentVUE	https://mystudentlogin.aps.edu/PXP2_Login_Parent.aspx
+1/23/2023 19:43:48 PM	COMP 523 Class Homepage	https://www.cs.unc.edu/~stotts/COMP523-s23/
+1/23/2023 19:43:53 PM	COMP 523: Project Teams	https://www.cs.unc.edu/~stotts/COMP523-s23/teams.html
+1/23/2023 19:43:58 PM	Team I: Project Unknown – COMP 523 Semester-Long Project Documentation & Exhibition Interface	https://tarheels.live/teami523/
+1/23/2023 19:44:04 PM	COMP 523: Client Presentation	https://www.cs.unc.edu/~stotts/COMP523-s23/clientProps-s2023.html
+1/23/2023 19:43:30 PM	EX00 - Angular, Getting Started - COMP423 - 23S	https://comp423-23s.github.io/exercises/ex00-ng-getting-started.html
+1/23/2023 19:43:26 PM	comp423-23s/comp423-23s.github.io: Course Website	https://github.com/comp423-23s/comp423-23s.github.io

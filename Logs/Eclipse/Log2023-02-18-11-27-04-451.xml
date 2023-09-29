@@ -1,0 +1,84 @@
+<Events startTimestamp="1676737624451" logVersion="1.0.0.202111260825">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="730" date="Sat Feb 18 11:27:13 EST 2023" docOffset="951" starttimestamp="1676737624451" timestamp="8567" />
+  <Command __id="3" _type="PauseCommand" date="Sat Feb 18 11:27:16 EST 2023" range="2s-5s" starttimestamp="1676737624451" timestamp="12440">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3863]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2" _type="ShellCommand" date="Sat Feb 18 11:27:16 EST 2023" starttimestamp="1676737624451" timestamp="12430" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="5" _type="PauseCommand" date="Sat Feb 18 11:36:05 EST 2023" range="5m-10m" starttimestamp="1676737624451" timestamp="540856">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[528424]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4" _type="ShellCommand" date="Sat Feb 18 11:36:05 EST 2023" starttimestamp="1676737624451" timestamp="540854" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="7" _type="PauseCommand" date="Sat Feb 18 11:36:08 EST 2023" range="2s-5s" starttimestamp="1676737624451" timestamp="544443">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3589]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="6" _type="ShellCommand" date="Sat Feb 18 11:36:08 EST 2023" starttimestamp="1676737624451" timestamp="544443" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8" _type="ShellCommand" date="Sat Feb 18 11:36:09 EST 2023" starttimestamp="1676737624451" timestamp="544927" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9" _type="ProgramExecutionEvent" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 18 11:36:09 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1676737624451" timestamp="544993" type="Run" />
+  <Command __id="10" _type="RunCommand" className="/ProducersConsumersV3/src/main/Main.java" date="Sat Feb 18 11:36:09 EST 2023" kind="HitBreakPoint" projectName="ProducersConsumersV3" starttimestamp="1676737624451" timestamp="544994" type="Run" />
+  <Command __id="11" _type="ShellCommand" date="Sat Feb 18 11:36:09 EST 2023" starttimestamp="1676737624451" timestamp="545420" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="13" _type="PauseCommand" date="Sat Feb 18 11:36:16 EST 2023" range="5s-10s" starttimestamp="1676737624451" timestamp="552131">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6710]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="12" _type="ConsoleOutput" date="Sat Feb 18 11:36:16 EST 2023" overflow="false" starttimestamp="1676737624451" timestamp="552130" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Object:graphics.ABell@5dd91bca displayed multiple times with following references:
+ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.last]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.ABell@5dd91bca displayed multiple times with following references:
+ [AProducerConsumerScene.queueBellList.first, AProducerConsumerScene.queueBellList.0, AProducerConsumerScene.queueBellList.last]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.APlate@340da44c displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.last, AProducerConsumerScene.otherPlateList.first]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+E*** Object:graphics.APlate@340da44c displayed multiple times with following references:
+ [AProducerConsumerScene.otherPlateList.0, AProducerConsumerScene.otherPlateList.last, AProducerConsumerScene.otherPlateList.first]
+ Remove one of these references in the displayed logical structure by, for instance, renaming the getter for the property storing the shared object or adding the @util.annotations.Visible(false) annotation before the getter.
+If you think it is safe to tareverse  all of these  references then add the annotattion @util.annotattions.AllowMultipleEqualReferences(false) nefore the getter.
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="15" _type="PauseCommand" date="Sat Feb 18 11:36:43 EST 2023" range="20s-30s" starttimestamp="1676737624451" timestamp="579455">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[27324]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="14" _type="ShellCommand" date="Sat Feb 18 11:36:43 EST 2023" starttimestamp="1676737624451" timestamp="579454" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="16" _type="ShellCommand" date="Sat Feb 18 11:36:43 EST 2023" starttimestamp="1676737624451" timestamp="579494" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="18" _type="PauseCommand" date="Sat Feb 18 11:37:03 EST 2023" range="10s-20s" starttimestamp="1676737624451" timestamp="598883">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[19389]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="17" _type="ShellCommand" date="Sat Feb 18 11:37:03 EST 2023" starttimestamp="1676737624451" timestamp="598883" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="19" _type="ShellCommand" date="Sat Feb 18 11:37:03 EST 2023" starttimestamp="1676737624451" timestamp="598969" type="ECLIPSE_MINIMIZED" />
+  <Command __id="20" _type="ShellCommand" date="Sat Feb 18 11:37:03 EST 2023" starttimestamp="1676737624451" timestamp="598983" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="22" _type="PauseCommand" date="Sat Feb 18 11:37:46 EST 2023" range="30s-1m" starttimestamp="1676737624451" timestamp="642011">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[42961]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

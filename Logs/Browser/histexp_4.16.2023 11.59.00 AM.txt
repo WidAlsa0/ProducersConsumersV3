@@ -1,0 +1,7 @@
+4/16/2023 12:07:29 PM	Producers Consumers Documentation/Walkthrough - Google Docs	https://docs.google.com/document/d/1T-XEQifgthSu-PCqIUGZhjXsds4YMGKR5UUuC44l8xM/edit
+4/16/2023 12:13:53 PM	Producers Consumers Documentation/Walkthrough - Google Docs	https://docs.google.com/document/d/1T-XEQifgthSu-PCqIUGZhjXsds4YMGKR5UUuC44l8xM/edit
+4/16/2023 12:18:52 PM	Producers Consumers Documentation/Walkthrough - Google Docs	https://docs.google.com/document/d/1T-XEQifgthSu-PCqIUGZhjXsds4YMGKR5UUuC44l8xM/edit
+4/16/2023 12:27:47 PM	Producers Consumers Documentation/Walkthrough - Google Docs	https://docs.google.com/document/d/1T-XEQifgthSu-PCqIUGZhjXsds4YMGKR5UUuC44l8xM/edit
+4/16/2023 12:36:04 PM	Producers Consumers Documentation/Walkthrough - Google Docs	https://docs.google.com/document/d/1T-XEQifgthSu-PCqIUGZhjXsds4YMGKR5UUuC44l8xM/edit
+4/16/2023 12:44:01 PM	Semaphores	https://jcsites.juniata.edu/faculty/rhodes/os/ch5b.htm
+4/16/2023 12:43:57 PM	Producer-Consumer problem - javatpoint	https://www.javatpoint.com/producer-consumer-problem-in-os

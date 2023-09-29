@@ -1,0 +1,2 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+18,,Tue Mar 21 09:46:03 EDT 2023,AProducerConsumerScene.java,1679406363439,26880,0,(I)15,1.0,0.0,0.0,0.0,0.0,0.0,0.5769230769230769,0.0,0.0,0.0,0.0,0.0,0.5769230769230769,0.0,[]
